@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kisi-Kisi SAS Ganjil 2026/2027 - MI "Al Iman"</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Fredoka (ceria untuk judul) & Plus Jakarta Sans (bersih & nyaman dibaca) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Fredoka', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              teal: '#0d9488',
+              emerald: '#10b981',
+              amber: '#f59e0b',
+              sky: '#0284c7',
+              coral: '#f43f5e',
+              violet: '#8b5cf6',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f8fafc;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(245, 158, 11, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(14, 165, 233, 0.10) 0px, transparent 50%);
+      background-attachment: fixed;
+    }
+
+    h1, h2, h3, .font-display {
+      font-family: 'Fredoka', sans-serif;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+
+    /* Animasi halus */
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .animate-float {
+      animation: floatSlow 4s ease-in-out infinite;
+    }
+
+    /* Print Styling */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .print-only {
+        display: block !important;
+      }
+      .print-break-inside {
+        break-inside: avoid;
+      }
+      table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+        font-size: 11px !important;
+      }
+      th, td {
+        border: 1px solid #334155 !important;
+        padding: 6px !important;
+      }
+    }
+  </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-amber-200 selection:text-slate-900">
+
+  <!-- Toast Notification (Pengganti alert()) -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none no-print">
+    <div class="bg-slate-900 text-white px-5 py-3.5 rounded-2xl shadow-xl flex items-center gap-3 border border-slate-700">
+      <div id="toast-icon" class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <div>
+        <p id="toast-title" class="text-sm font-bold">Berhasil!</p>
+        <p id="toast-msg" class="text-xs text-slate-300">Progres belajar tersimpan.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO HEADER -->
+  <header class="relative overflow-hidden bg-gradient-to-br from-emerald-500 via-teal-600 to-sky-600 text-white shadow-lg rounded-b-[2rem] md:rounded-b-[3rem] no-print">
+    <!-- Dekorasi Geometri Ceria -->
+    <div class="absolute top-0 left-0 w-64 h-64 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-xl"></div>
+    <div class="absolute bottom-0 right-0 w-80 h-80 bg-amber-400/20 rounded-full translate-x-1/3 translate-y-1/3 blur-2xl"></div>
+    <div class="absolute top-8 right-12 text-amber-300/30 text-6xl animate-float hidden md:block">
+      <i class="fa-solid fa-star-and-crescent"></i>
+    </div>
+    <div class="absolute bottom-8 left-12 text-white/20 text-5xl animate-float hidden md:block" style="animation-delay: 1.5s;">
+      <i class="fa-solid fa-book-open-reader"></i>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-11 relative z-10">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+        <div class="space-y-3 max-w-2xl">
+          <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold border border-white/30 shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-amber-300 animate-pulse"></span>
+            <span>Kurikulum Merdeka • Tahun Pelajaran 2026/2027</span>
+          </div>
+          <h1 class="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight drop-shadow-sm">
+            Kisi-Kisi Soal SAS Ganjil
+            <span class="block text-amber-200 mt-1">Madrasah Ibtidaiyah "Al Iman"</span>
+          </h1>
+          <p class="text-emerald-50 text-sm sm:text-base leading-relaxed">
+            Panduan belajar ceria, lengkap, dan terstruktur untuk <strong>Siswa, Orang Tua, dan Guru</strong>. Pantau setiap indikator soal dan tandai materi yang sudah dikuasai!
+          </p>
+        </div>
+
+        <!-- Kartu Statistik Ringkas -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-3 shrink-0">
+          <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl p-3.5 text-center sm:text-left">
+            <div class="flex items-center justify-center sm:justify-start gap-2 text-amber-200 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-layer-group"></i> Paket Mapel
+            </div>
+            <div class="text-2xl sm:text-3xl font-display font-bold mt-1">9 <span class="text-xs font-sans font-normal text-emerald-100">Paket</span></div>
+          </div>
+          <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl p-3.5 text-center sm:text-left">
+            <div class="flex items-center justify-center sm:justify-start gap-2 text-sky-200 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-list-check"></i> Total Butir
+            </div>
+            <div class="text-2xl sm:text-3xl font-display font-bold mt-1">340 <span class="text-xs font-sans font-normal text-emerald-100">Soal</span></div>
+          </div>
+          <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl p-3.5 text-center sm:text-left">
+            <div class="flex items-center justify-center sm:justify-start gap-2 text-emerald-200 text-xs font-bold uppercase tracking-wider">
+              <i class="fa-solid fa-graduation-cap"></i> Jenjang Kelas
+            </div>
+            <div class="text-lg sm:text-xl font-display font-bold mt-1">III, IV & VI</div>
+          </div>
+          <div class="bg-amber-400/90 text-slate-900 border border-amber-300 rounded-2xl p-3.5 text-center sm:text-left shadow-md">
+            <div class="flex items-center justify-center sm:justify-start gap-2 text-amber-950 text-xs font-extrabold uppercase tracking-wider">
+              <i class="fa-solid fa-trophy"></i> Siap Ujian
+            </div>
+            <div id="global-progress-text" class="text-xl sm:text-2xl font-display font-bold mt-0.5">0 / 340</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-6">
+
+    <!-- PANEL NAVIGASI KELAS & MATA PELAJARAN (NO PRINT) -->
+    <section class="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-4 sm:p-6 space-y-5 no-print">
+      <!-- Baris 1: Pilih Jenjang Kelas -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-100">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center font-bold">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div>
+            <h2 class="text-base sm:text-lg font-bold text-slate-800">1. Pilih Jenjang Kelas</h2>
+            <p class="text-xs text-slate-500">Saring daftar mata pelajaran berdasarkan kelas</p>
+          </div>
+        </div>
+
+        <div id="grade-filter-group" class="flex flex-wrap gap-2">
+          <button data-grade="ALL" class="grade-btn active px-4 py-2 rounded-xl text-sm font-bold transition-all bg-emerald-600 text-white shadow-sm shadow-emerald-200">
+            Semua Kelas (9)
+          </button>
+          <button data-grade="III" class="grade-btn px-4 py-2 rounded-xl text-sm font-bold transition-all bg-slate-100 text-slate-600 hover:bg-emerald-50 hover:text-emerald-700">
+            Kelas III (5 Mapel)
+          </button>
+          <button data-grade="IV" class="grade-btn px-4 py-2 rounded-xl text-sm font-bold transition-all bg-slate-100 text-slate-600 hover:bg-sky-50 hover:text-sky-700">
+            Kelas IV (2 Mapel)
+          </button>
+          <button data-grade="VI" class="grade-btn px-4 py-2 rounded-xl text-sm font-bold transition-all bg-slate-100 text-slate-600 hover:bg-amber-50 hover:text-amber-700">
+            Kelas VI (2 Mapel)
+          </button>
+        </div>
+      </div>
+
+      <!-- Baris 2: Pilih Paket Mata Pelajaran -->
+      <div class="space-y-2.5">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">2. Pilih Mata Pelajaran & Kelas</span>
+          <span id="visible-subject-count" class="text-xs font-semibold text-teal-600">Menampilkan 9 paket mapel</span>
+        </div>
+        <div id="subject-tabs" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <!-- Diisi dinamis oleh JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- KARTU IDENTITAS MAPEL AKTIF & PROGRESS BAR -->
+    <section id="active-subject-banner" class="bg-white rounded-3xl shadow-sm border border-slate-200/80 overflow-hidden">
+      <!-- Header Banner Dinamis -->
+      <div id="banner-header" class="bg-gradient-to-r from-teal-500 to-emerald-500 p-5 sm:p-7 text-white">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div class="space-y-1.5">
+            <div class="flex flex-wrap items-center gap-2">
+              <span id="banner-grade-badge" class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-xs font-extrabold uppercase tracking-wider">
+                KELAS III (TIGA)
+              </span>
+              <span class="px-3 py-1 rounded-full bg-amber-300 text-slate-900 text-xs font-extrabold">
+                Semester Ganjil • Kurikulum Merdeka
+              </span>
+            </div>
+            <h2 id="banner-title" class="text-2xl sm:text-3xl font-bold tracking-tight">
+              Akidah Akhlak
+            </h2>
+            <p class="text-xs sm:text-sm text-white/90">
+              Madrasah Ibtidaiyah "Al Iman" • Tahun Pelajaran 2026/2027
+            </p>
+          </div>
+
+          <!-- Komposisi Soal Badges -->
+          <div class="flex flex-wrap gap-2 sm:gap-3">
+            <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl px-4 py-2.5 text-center min-w-[76px]">
+              <div class="text-[11px] uppercase font-bold text-white/80">Total</div>
+              <div id="stat-total" class="text-xl font-display font-bold">35</div>
+            </div>
+            <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl px-4 py-2.5 text-center min-w-[76px]">
+              <div class="text-[11px] uppercase font-bold text-white/80">PG</div>
+              <div id="stat-pg" class="text-xl font-display font-bold">20</div>
+            </div>
+            <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl px-4 py-2.5 text-center min-w-[76px]">
+              <div class="text-[11px] uppercase font-bold text-white/80">Isian</div>
+              <div id="stat-isian" class="text-xl font-display font-bold">10</div>
+            </div>
+            <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl px-4 py-2.5 text-center min-w-[76px]">
+              <div class="text-[11px] uppercase font-bold text-white/80">Uraian</div>
+              <div id="stat-uraian" class="text-xl font-display font-bold">5</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress Bar Belajar Mapel Ini (No Print) -->
+        <div class="mt-5 pt-4 border-t border-white/20 no-print">
+          <div class="flex items-center justify-between text-xs sm:text-sm font-semibold mb-1.5">
+            <span class="flex items-center gap-2">
+              <i class="fa-solid fa-rocket text-amber-300"></i>
+              Progres Belajar Mapel Ini
+            </span>
+            <span id="subject-progress-label">0 dari 35 indikator dipelajari (0%)</span>
+          </div>
+          <div class="w-full h-3 bg-black/20 rounded-full overflow-hidden p-0.5">
+            <div id="subject-progress-bar" class="h-full bg-gradient-to-r from-amber-300 to-yellow-200 rounded-full transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Peta Materi (Topic Pills) - No Print -->
+      <div class="p-4 sm:px-7 sm:py-4 bg-slate-50/80 border-b border-slate-100 no-print">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-tags text-teal-600"></i> Peta Topik Materi (Klik untuk menyaring):
+          </span>
+          <button id="reset-topic-btn" class="hidden text-xs font-bold text-rose-600 hover:underline">
+            <i class="fa-solid fa-xmark"></i> Hapus Filter Topik
+          </button>
+        </div>
+        <div id="topic-pills-container" class="flex flex-wrap gap-2">
+          <!-- Diisi dinamis oleh JS -->
+        </div>
+      </div>
+
+      <!-- Toolbar Pencarian, Filter Bentuk, Level Kognitif & Toggle Tampilan (No Print) -->
+      <div class="p-4 sm:px-7 sm:py-4 bg-white flex flex-col lg:flex-row lg:items-center justify-between gap-3 no-print">
+        <!-- Search Input -->
+        <div class="relative flex-1 min-w-[240px]">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Cari nomor soal, materi, tujuan, atau indikator..."
+            class="w-full pl-10 pr-9 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:bg-white transition-all"
+          />
+          <button id="clear-search-btn" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Dropdown Filters & View Switcher -->
+        <div class="flex flex-wrap items-center gap-2.5">
+          <!-- Filter Bentuk Soal -->
+          <select id="filter-type" class="px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm font-semibold text-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-500">
+            <option value="ALL">Semua Bentuk Soal</option>
+            <option value="PG">Pilihan Ganda (PG)</option>
+            <option value="Isian Singkat">Isian Singkat</option>
+            <option value="Uraian">Uraian</option>
+          </select>
+
+          <!-- Filter Level Kognitif -->
+          <select id="filter-level" class="px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm font-semibold text-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-500">
+            <option value="ALL">Semua Level (C1-C3)</option>
+            <option value="C1">C1 - Mengingat</option>
+            <option value="C2">C2 - Memahami</option>
+            <option value="C3">C3 - Menerapkan</option>
+          </select>
+
+          <!-- View Toggle -->
+          <div class="inline-flex bg-slate-100 p-1 rounded-xl border border-slate-200">
+            <button id="view-card-btn" class="px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 bg-white text-teal-700 shadow-sm transition-all">
+              <i class="fa-solid fa-grip"></i>
+              <span class="hidden sm:inline">Kartu Belajar</span>
+            </button>
+            <button id="view-table-btn" class="px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 text-slate-600 hover:text-slate-900 transition-all">
+              <i class="fa-solid fa-table-list"></i>
+              <span class="hidden sm:inline">Tabel Guru</span>
+            </button>
+          </div>
+
+          <!-- Print Button -->
+          <button onclick="window.print()" class="px-3.5 py-2.5 bg-amber-100 hover:bg-amber-200 text-amber-900 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-1.5 transition-all" title="Cetak Kisi-Kisi Ini">
+            <i class="fa-solid fa-print"></i>
+            <span class="hidden md:inline">Cetak</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO JUMLAH HASIL FILTER -->
+    <div class="flex flex-wrap items-center justify-between gap-2 px-1 no-print">
+      <p id="filter-status-text" class="text-xs sm:text-sm text-slate-600 font-medium">
+        Menampilkan <span class="font-bold text-slate-900">35</span> butir indikator soal.
+      </p>
+      <div class="flex items-center gap-3">
+        <button id="check-all-btn" class="text-xs font-bold text-teal-700 hover:text-teal-800 flex items-center gap-1">
+          <i class="fa-solid fa-check-double"></i> Tandai Semua Selesai
+        </button>
+        <span class="text-slate-300">|</span>
+        <button id="uncheck-all-btn" class="text-xs font-bold text-slate-500 hover:text-rose-600 flex items-center gap-1">
+          <i class="fa-solid fa-rotate-left"></i> Reset Progres Mapel
+        </button>
+      </div>
+    </div>
+
+    <!-- CONTAINER KONTEN UTAMA (CARD VIEW & TABLE VIEW) -->
+    <section id="items-container" class="min-h-[300px]">
+      <!-- Diisi dinamis oleh JS -->
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-8 border-t border-slate-200/80 text-center text-xs sm:text-sm text-slate-500 no-print">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="font-semibold text-slate-700">
+        <i class="fa-solid fa-mosque text-teal-600 mr-1.5"></i>
+        Madrasah Ibtidaiyah "Al Iman" — Kisi-Kisi SAS Ganjil TP 2026/2027
+      </p>
+      <p>Semangat Belajar & Raih Prestasi Terbaik! 🌟</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT DATA & INTERAKTIVITAS -->
+  <script>
+    // =========================================================================
+    // DATA LENGKAP 9 PAKET KISI-KISI SAS GANJIL 2026/2027 MI "AL IMAN" (340 SOAL)
+    // =========================================================================
+    const KISI_DATA = [
+      // -----------------------------------------------------------------------
+      // 1. AKIDAH AKHLAK - KELAS III (35 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "akidah-3",
+        mapel: "Akidah Akhlak",
+        kelas: "III",
+        kelasLabel: "Kelas III (Tiga)",
+        icon: "fa-heart-circle-check",
+        gradient: "from-emerald-500 to-teal-600",
+        badgeBg: "bg-emerald-100 text-emerald-800",
+        total: 35, pg: 20, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Bersyukur", cp: "Peserta didik mampu memahami dan membiasakan sikap bersyukur atas nikmat Allah Swt. dalam kehidupan sehari-hari.", tp: "Memahami sikap terhadap nikmat Allah Swt.", indikator: "Disajikan ilustrasi mengenai kenikmatan dari Allah Swt., siswa dapat menentukan sikap yang tepat terhadap nikmat Allah Swt.", level: "C2", bentuk: "PG" },
+          { no: 2, materi: "Bersyukur", cp: "Peserta didik mampu memahami dan membiasakan sikap bersyukur atas nikmat Allah Swt. dalam kehidupan sehari-hari.", tp: "Menerapkan perilaku bersyukur melalui ucapan dan perbuatan.", indikator: "Disajikan ilustrasi hasil belajar, siswa dapat menentukan perbuatan yang menunjukkan rasa syukur melalui ucapan.", level: "C3", bentuk: "PG" },
+          { no: 3, materi: "Bersyukur", cp: "Peserta didik mampu memahami dan membiasakan sikap bersyukur atas nikmat Allah Swt. dalam kehidupan sehari-hari.", tp: "Menerapkan perilaku bersyukur melalui ucapan dan perbuatan.", indikator: "Disajikan pernyataan tentang ragam nikmat Allah Swt., siswa dapat menentukan salah satu cara mensyukuri nikmat melalui perbuatan.", level: "C3", bentuk: "PG" },
+          { no: 4, materi: "Asmaul Husna", cp: "Peserta didik mampu mengenal Asmaul Husna sebagai motivasi berakhlak mulia.", tp: "Memahami jumlah Asmaul Husna dalam Islam.", indikator: "Disajikan pertanyaan, siswa dapat menentukan jumlah Asmaul Husna yang dikenal dalam ajaran Islam.", level: "C1", bentuk: "PG" },
+          { no: 5, materi: "Asmaul Husna (Al-Halim)", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Halim) sebagai motivasi berakhlak mulia.", tp: "Menguraikan arti Asmaul Husna Al-Halim.", indikator: "Disajikan pertanyaan, siswa dapat menentukan arti dari Asmaul Husna Al-Halim.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Asmaul Husna (Al-Halim)", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Halim) dalam kehidupan sehari-hari.", tp: "Meneladani sifat Allah Al-Halim.", indikator: "Disajikan ilustrasi menghadapi teman yang melakukan kesalahan, siswa dapat menentukan perilaku yang sesuai dengan peneladanan sifat Al-Halim.", level: "C3", bentuk: "PG" },
+          { no: 7, materi: "Asmaul Husna (Al-Wahhab)", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Wahhab) sebagai motivasi berakhlak mulia.", tp: "Menguraikan arti Asmaul Husna Al-Wahhab.", indikator: "Disajikan ilustrasi pemberian karunia Allah Swt., siswa dapat menentukan nama Asmaul Husna yang memiliki arti Maha Pemberi.", level: "C2", bentuk: "PG" },
+          { no: 8, materi: "Asmaul Husna (Al-Wahhab)", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Wahhab) dalam kehidupan sehari-hari.", tp: "Meneladani sifat Allah Al-Wahhab.", indikator: "Disajikan ilustrasi anak mendapatkan hadiah dan berterima kasih, siswa dapat menentukan perilaku yang sesuai dengan peneladanan sifat Al-Wahhab.", level: "C3", bentuk: "PG" },
+          { no: 9, materi: "Akhlak Terpuji (Taat)", cp: "Peserta didik mampu membiasakan akhlak terpuji (taat) dalam kehidupan sehari-hari.", tp: "Memahami arti kalimat atau perilaku taat.", indikator: "Disajikan pertanyaan, siswa dapat menjelaskan arti dari sikap taat dengan tepat.", level: "C1", bentuk: "PG" },
+          { no: 10, materi: "Taat Kepada Orang Tua", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada orang tua.", tp: "Memahami adab dan ketaatan kepada orang tua.", indikator: "Disajikan ilustrasi pengorbanan orang tua, siswa dapat menentukan sikap yang seharusnya dilakukan oleh seorang anak.", level: "C3", bentuk: "PG" },
+          { no: 11, materi: "Taat Kepada Orang Tua", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada orang tua.", tp: "Melaksanakan perilaku taat kepada orang tua dalam kehidupan sehari-hari.", indikator: "Disajikan ilustrasi permintaan ibu di rumah, siswa dapat mengidentifikasi bentuk perilaku taat kepada orang tua.", level: "C3", bentuk: "PG" },
+          { no: 12, materi: "Taat Kepada Guru", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada guru.", tp: "Memahami adab dan ketaatan kepada guru di sekolah.", indikator: "Disajikan ilustrasi peran guru di sekolah, siswa dapat menentukan bentuk ketaatan kepada guru yang benar.", level: "C3", bentuk: "PG" },
+          { no: 13, materi: "Taat Kepada Guru", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada guru.", tp: "Melaksanakan perilaku taat kepada guru dalam pembelajaran.", indikator: "Disajikan ilustrasi pengerjaan tugas sekolah dengan tertib, siswa dapat mengidentifikasi perbuatan tersebut sebagai bentuk ketaatan kepada guru.", level: "C3", bentuk: "PG" },
+          { no: 14, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Memahami kisah keteladanan Nabi Ibrahim a.s.", indikator: "Disajikan pertanyaan tentang Nabi Ibrahim a.s., siswa dapat menentukan golongan nabi yang bergelar Ulul Azmi.", level: "C1", bentuk: "PG" },
+          { no: 15, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Menguraikan keteguhan iman Nabi Ibrahim a.s.", indikator: "Disajikan ilustrasi penolakan terhadap penyembahan berhala, siswa dapat menentukan bentuk keteguhan iman Nabi Ibrahim a.s.", level: "C2", bentuk: "PG" },
+          { no: 16, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Memahami kisah tokoh penentang dakwah Nabi Ibrahim a.s.", indikator: "Disajikan deskripsi tentang raja yang sombong pada masa Nabi Ibrahim a.s., siswa dapat menyebutkan nama raja tersebut.", level: "C1", bentuk: "PG" },
+          { no: 17, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Menguraikan sifat raja penentang dakwah.", indikator: "Disajikan ilustrasi sikap Raja Namrud terhadap dakwah Nabi Ibrahim a.s., siswa dapat menentukan sifat tercela raja tersebut.", level: "C2", bentuk: "PG" },
+          { no: 18, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Meneladani keteguhan pendirian dalam kebenaran.", indikator: "Disajikan ilustrasi ujian berat dari Raja Namrud, siswa dapat menentukan sikap teladan yang dapat dicontoh dari peristiwa tersebut.", level: "C3", bentuk: "PG" },
+          { no: 19, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Meneladani cara menyampaikan kebenaran secara bijaksana.", indikator: "Disajikan ilustrasi menghadapi perbedaan pendapat, siswa dapat menentukan sikap bijaksana Nabi Ibrahim a.s.", level: "C3", bentuk: "PG" },
+          { no: 20, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Menyimpulkan akhlak mulia Nabi Ibrahim a.s.", indikator: "Disajikan kisah tentang cobaan dan keimanan Nabi Ibrahim a.s., siswa dapat menentukan akhlak mulia yang dapat diteladani.", level: "C3", bentuk: "PG" },
+          { no: 21, materi: "Bersyukur", cp: "Peserta didik mampu memahami dan membiasakan sikap bersyukur atas nikmat Allah Swt.", tp: "Memahami istilah bersyukur atas nikmat.", indikator: "Disajikan kalimat rumpang, siswa dapat menuliskan istilah sikap berterima kasih atas pemberian Allah Swt.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 22, materi: "Bersyukur", cp: "Peserta didik mampu memahami dan membiasakan sikap bersyukur atas nikmat Allah Swt.", tp: "Menguraikan ucapan rasa syukur.", indikator: "Disajikan pernyataan tentang mengingat Allah saat mendapatkan hal menyenangkan, siswa dapat menuliskan ucapan rasa syukur yang tepat.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 23, materi: "Asmaul Husna", cp: "Peserta didik mampu mengenal Asmaul Husna sebagai motivasi berakhlak mulia.", tp: "Memahami istilah nama-nama indah Allah Swt.", indikator: "Disajikan pernyataan tentang nama-nama Allah Swt. yang indah, siswa dapat menuliskan istilahnya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 24, materi: "Asmaul Husna (Al-Halim)", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Halim).", tp: "Menguraikan Asmaul Husna yang diteladani saat menghadapi kesalahan orang lain.", indikator: "Disajikan ilustrasi menghadapi orang yang melakukan kesalahan, siswa dapat menuliskan Asmaul Husna yang diteladani.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 25, materi: "Asmaul Husna (Al-Wahhab)", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Wahhab).", tp: "Menguraikan arti Asmaul Husna Al-Wahhab.", indikator: "Disajikan pernyataan tentang karunia Allah Swt., siswa dapat menuliskan Asmaul Husna yang berarti Maha Pemberi.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 26, materi: "Taat Kepada Orang Tua", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada orang tua.", tp: "Melaksanakan perilaku taat kepada orang tua.", indikator: "Disajikan ilustrasi mendengarkan nasihat ayah dan ibu, siswa dapat menuliskan istilah sikap taat tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 27, materi: "Taat Kepada Guru", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada guru.", tp: "Melaksanakan perilaku taat kepada guru di sekolah.", indikator: "Disajikan pernyataan tentang pihak yang mendidik di sekolah, siswa dapat menuliskan pihak yang harus dihormati dan ditaati.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 28, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s.", tp: "Meneladani sikap teguh pendirian dalam keimanan.", indikator: "Disajikan kisah keteguhan iman Nabi Ibrahim a.s., siswa dapat menuliskan istilah sikap teguh dalam mempertahankan keimanan.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 29, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s.", tp: "Memahami tokoh penentang dakwah Nabi Ibrahim a.s.", indikator: "Disajikan pernyataan tentang raja yang sombong pada masa Nabi Ibrahim a.s., siswa dapat menuliskan nama raja tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 30, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s.", tp: "Menyimpulkan akhlak mulia Nabi Ibrahim a.s.", indikator: "Disajikan pernyataan tentang ujian dan kesulitan Nabi Ibrahim a.s., siswa dapat menuliskan akhlak mulia yang diteladani.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 31, materi: "Bersyukur", cp: "Peserta didik mampu memahami dan membiasakan sikap bersyukur atas nikmat Allah Swt. dalam kehidupan sehari-hari.", tp: "Menjelaskan pengertian bersyukur dan contohnya.", indikator: "Siswa dapat menjelaskan pengertian bersyukur dan menuliskan tiga contoh perilaku bersyukur dalam kehidupan sehari-hari.", level: "C3", bentuk: "Uraian" },
+          { no: 32, materi: "Asmaul Husna", cp: "Peserta didik mampu mengenal dan meneladani Asmaul Husna (Al-Halim, Al-Wahhab).", tp: "Menjelaskan pengertian Asmaul Husna dan arti Al-Halim serta Al-Wahhab.", indikator: "Siswa dapat menjelaskan pengertian Asmaul Husna serta menuliskan arti dari Al-Halim dan Al-Wahhab.", level: "C2", bentuk: "Uraian" },
+          { no: 33, materi: "Taat Kepada Orang Tua dan Guru", cp: "Peserta didik mampu membiasakan akhlak terpuji kepada orang tua dan guru.", tp: "Menguraikan contoh perilaku taat kepada orang tua dan guru.", indikator: "Siswa dapat menuliskan tiga contoh perilaku taat kepada orang tua dan tiga contoh perilaku taat kepada guru.", level: "C3", bentuk: "Uraian" },
+          { no: 34, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s.", tp: "Menguraikan tokoh penentang dan sikapnya terhadap dakwah Nabi Ibrahim a.s.", indikator: "Siswa dapat menyebutkan raja yang menentang dakwah Nabi Ibrahim a.s. serta menjelaskan sikap raja tersebut terhadap ajaran Nabi Ibrahim a.s..", level: "C2", bentuk: "Uraian" },
+          { no: 35, materi: "Kisah Keteladanan Nabi Ibrahim a.s.", cp: "Peserta didik mampu meneladani kisah Nabi Ibrahim a.s. sebagai inspirasi kehidupan.", tp: "Menyebutkan dan menjelaskan akhlak mulia Nabi Ibrahim a.s.", indikator: "Siswa dapat menyebutkan dan menjelaskan tiga akhlak mulia Nabi Ibrahim a.s. yang dapat dicontoh dalam kehidupan sehari-hari.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 2. FIKIH - KELAS III (35 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "fikih-3",
+        mapel: "Fikih",
+        kelas: "III",
+        kelasLabel: "Kelas III (Tiga)",
+        icon: "fa-person-praying",
+        gradient: "from-sky-500 to-blue-600",
+        badgeBg: "bg-sky-100 text-sky-800",
+        total: 35, pg: 20, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah (keringanan) ibadah seperti salat jamak dan qasar bagi musafir.", tp: "Memahami ketentuan pelaksanaan salat jamak dan qasar bagi musafir.", indikator: "Disajikan ilustrasi perjalanan musafir yang sudah mengerjakan salat Dzuhur tepat waktu, siswa dapat menentukan cara pelaksanaan salat Ashar yang tepat.", level: "C3", bentuk: "PG" },
+          { no: 2, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib (qabliyah dan ba'diyah).", tp: "Memahami pengertian salat sunah Rawatib qabliyah.", indikator: "Disajikan pertanyaan tentang salat sunah yang dikerjakan sebelum salat fardu, siswa dapat menentukan istilah yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 3, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib (qabliyah dan ba'diyah).", tp: "Memahami waktu pelaksanaan salat sunah Rawatib ba'diyah.", indikator: "Disajikan ilustrasi pelaksanaan salat sunah setelah Magrib, siswa dapat menentukan jenis waktu salat sunah tersebut.", level: "C2", bentuk: "PG" },
+          { no: 4, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib mu'akkadah.", tp: "Menguraikan tingkatan salat sunah Rawatib yang sangat dianjurkan.", indikator: "Disajikan pernyataan tentang salat sunah yang sangat dianjurkan dan dijaga Rasulullah saw., siswa dapat menentukan istilah mu'akkadah.", level: "C2", bentuk: "PG" },
+          { no: 5, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Mengidentifikasi salat fardu yang tidak memiliki Rawatib ba'diyah.", indikator: "Disajikan daftar salat fardu, siswa dapat menentukan salat yang tidak memiliki salat Rawatib ba'diyah.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Menyimpulkan hikmah melaksanakan salat sunah Rawatib.", indikator: "Disajikan pernyataan mengenai kekurangan dalam pelaksanaan salat fardu, siswa dapat menentukan hikmah salat Rawatib.", level: "C3", bentuk: "PG" },
+          { no: 7, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Menguraikan jumlah rakaat salat Rawatib mu'akkadah utama.", indikator: "Disajikan informasi dari pembelajaran tentang jumlah rakaat Rawatib mu'akkadah, siswa dapat menentukan jumlah rakaatnya.", level: "C2", bentuk: "PG" },
+          { no: 8, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Memahami keutamaan salat sunah sebelum Subuh.", indikator: "Disajikan pernyataan tentang keutamaan salat sunah tertentu yang lebih baik dari dunia seisinya, siswa dapat menentukan salat sunah sebelum Subuh.", level: "C2", bentuk: "PG" },
+          { no: 9, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak).", tp: "Memahami pengertian salat jamak.", indikator: "Disajikan deskripsi menggabungkan pelaksanaan salat fardu pada waktu tertentu, siswa dapat menentukan istilah jamak.", level: "C1", bentuk: "PG" },
+          { no: 10, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat qasar).", tp: "Memahami pengertian salat qasar.", indikator: "Disajikan ilustrasi musafir meringkas rakaat salat fardu, siswa dapat menentukan istilah qasar.", level: "C2", bentuk: "PG" },
+          { no: 11, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak ta'khir).", tp: "Menerapkan tata cara salat jamak ta'khir bagi musafir.", indikator: "Disajikan ilustrasi musafir di perjalanan yang mendapati waktu Magrib dan Isya, siswa dapat menentukan bentuk keringanan jamak ta'khir yang tepat.", level: "C3", bentuk: "PG" },
+          { no: 12, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak ta'khir).", tp: "Mengidentifikasi pelaksanaan salat jamak ta'khir.", indikator: "Disajikan ilustrasi pelaksanaan salat Zuhur pada waktu Asar, siswa dapat menentukan cara penggabungan salat tersebut.", level: "C3", bentuk: "PG" },
+          { no: 13, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak taqdim).", tp: "Mengidentifikasi pelaksanaan salat jamak taqdim.", indikator: "Disajikan ilustrasi pelaksanaan salat Zuhur dan Asar dikerjakan pada waktu Zuhur, siswa dapat menentukan cara penggabungannya.", level: "C3", bentuk: "PG" },
+          { no: 14, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat qasar).", tp: "Menguraikan ketentuan salat fardu yang boleh diqasar.", indikator: "Disajikan daftar salat fardu, siswa dapat menentukan salat yang tidak boleh diqasar.", level: "C2", bentuk: "PG" },
+          { no: 15, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (jamak dan qasar).", tp: "Menerapkan praktik jamak sekaligus qasar.", indikator: "Disajikan ilustrasi perjalanan dinas Pak Hadi, siswa dapat menentukan praktik salat jamak taqdim sekaligus qasar dengan tepat.", level: "C3", bentuk: "PG" },
+          { no: 16, materi: "Salat Bagi Orang Sakit", cp: "Peserta didik mampu memahami pelaksanaan ibadah salat dalam kondisi darurat atau sakit.", tp: "Memahami tata cara salat bagi orang sakit yang mampu duduk.", indikator: "Disajikan pernyataan tentang kondisi muslim yang sakit tetapi masih sehat akalnya, siswa dapat menentukan cara salat yang tepat.", level: "C2", bentuk: "PG" },
+          { no: 17, materi: "Salat Bagi Orang Sakit", cp: "Peserta didik mampu memahami pelaksanaan ibadah salat dalam kondisi darurat atau sakit.", tp: "Memahami pengganti wudu bagi orang sakit parah.", indikator: "Disajikan ilustrasi Pak Ahmad sakit parah dan tidak boleh terkena air, siswa dapat menentukan pengganti wudunya.", level: "C3", bentuk: "PG" },
+          { no: 18, materi: "Salat Bagi Orang Sakit", cp: "Peserta didik mampu memahami pelaksanaan ibadah salat dalam kondisi darurat atau sakit.", tp: "Memahami gerakan salat bagi orang sakit yang berbaring.", indikator: "Disajikan deskripsi kondisi orang sakit yang tidak mampu duduk, siswa dapat menentukan gerakan salat dengan isyarat anggota tubuh yang mampu.", level: "C2", bentuk: "PG" },
+          { no: 19, materi: "Salat Bagi Orang Sakit", cp: "Peserta didik mampu memahami pelaksanaan ibadah salat dalam kondisi darurat atau sakit.", tp: "Menentukan tata cara salat bagi pasien di rumah sakit yang sangat lemah.", indikator: "Disajikan ilustrasi Bu Siti dirawat di rumah sakit dalam kondisi sangat lemah berbaring, siswa dapat menentukan tata cara salat yang tepat.", level: "C3", bentuk: "PG" },
+          { no: 20, materi: "Salat Bagi Orang Sakit", cp: "Peserta didik mampu memahami pelaksanaan ibadah salat dalam kondisi darurat atau sakit.", tp: "Memahami keringanan beribadah bagi pasien perawatan intensif.", indikator: "Disajikan ilustrasi pasien kesulitan salat tepat waktu karena perawatan intensif, siswa dapat menentukan bentuk keringanan yang diberikan.", level: "C3", bentuk: "PG" },
+          { no: 21, materi: "Salat Jamak dan Qasar (Rukhshah)", cp: "Peserta didik mampu memahami ketentuan rukhshah (keringanan) ibadah.", tp: "Memahami istilah keringanan dalam ibadah.", indikator: "Disajikan pernyataan tentang bepergian jauh dan mengambil kemudahan, siswa dapat menuliskan istilah rukhshah.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 22, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Mengidentifikasi salat sunah sebelum Subuh.", indikator: "Disajikan pernyataan tentang salat sunah dua rakaat sebelum Subuh, siswa dapat menuliskan istilah qabliyah subuh.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 23, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Menguraikan jumlah rakaat Rawatib sebelum Asar.", indikator: "Disajikan pertanyaan tentang jumlah rakaat salat Rawatib sebelum Asar, siswa dapat menuliskan jumlah rakaatnya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 24, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Memahami tempat pelaksanaan anjuran salat sunah Rawatib selain masjid.", indikator: "Disajikan pernyataan tentang anjuran pelaksanaan salat sunah di samping masjid, siswa dapat menuliskan tempat pelaksanaannya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 25, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Menyimpulkan tujuan salat Rawatib menyempurnakan kekurangan.", indikator: "Disajikan pernyataan hikmah salat Rawatib, siswa dapat menuliskan jenis salat fardu yang disempurnakan.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 26, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak).", tp: "Memahami definisi salat jamak.", indikator: "Disajikan pernyataan pelaksanaan dua salat fardu dalam satu waktu, siswa dapat menuliskan istilah salat jamak.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 27, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat qasar).", tp: "Memahami definisi salat qasar.", indikator: "Disajikan ilustrasi musafir meringkas empat rakaat menjadi dua, siswa dapat menuliskan istilah qasar.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 28, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah bagi musafir.", tp: "Mengidentifikasi pihak yang diperbolehkan menjamak dan mengqasar salat.", indikator: "Disajikan pernyataan tentang keringanan perjalanan jauh, siswa dapat menuliskan istilah musafir.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 29, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak ta'khir).", tp: "Mengidentifikasi jenis jamak ta'khir di perjalanan.", indikator: "Disajikan ilustrasi Sholih mengerjakan salat Zuhur pada waktu Asar di perjalanan, siswa dapat menuliskan istilah jamak ta'khir.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 30, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat jamak ta'khir).", tp: "Mengidentifikasi pelaksanaan jamak di waktu terakhir.", indikator: "Disajikan pernyataan pelaksanaan salat pada waktu salat yang terakhir, siswa dapat menuliskan istilah jamak ta'khir.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 31, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah bagi musafir.", tp: "Menjelaskan tata cara salat bagi musafir.", indikator: "Siswa dapat menjelaskan cara melaksanakan salat bagi seorang musafir (menjamak dan/atau mengqasar salat fardu).", level: "C3", bentuk: "Uraian" },
+          { no: 32, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Menuliskan lafaz niat salat sunah Rawatib sebelum Subuh.", indikator: "Siswa dapat menuliskan lafaz niat salat sunah Rawatib dua rakaat sebelum Subuh beserta artinya.", level: "C3", bentuk: "Uraian" },
+          { no: 33, materi: "Salat Sunah Rawatib", cp: "Peserta didik mampu membiasakan melaksanakan salat sunah Rawatib.", tp: "Menjelaskan hikmah pelaksanaan salat sunah Rawatib di rumah.", indikator: "Siswa dapat menjelaskan tujuan atau hikmah pelaksanaan salat sunah Rawatib di rumah.", level: "C3", bentuk: "Uraian" },
+          { no: 34, materi: "Salat Jamak dan Qasar", cp: "Peserta didik mampu memahami ketentuan rukhshah ibadah (salat qasar).", tp: "Menyebutkan syarat diperbolehkannya mengqasar salat.", indikator: "Siswa dapat menyebutkan dua syarat seseorang diperbolehkan mengqasar salat.", level: "C2", bentuk: "Uraian" },
+          { no: 35, materi: "Salat Bagi Orang Sakit", cp: "Peserta didik mampu memahami pelaksanaan ibadah salat dalam kondisi darurat atau sakit.", tp: "Menjelaskan tata cara salat bagi orang sakit.", indikator: "Siswa dapat menjelaskan tata cara pelaksanaan salat bagi orang sakit dengan berbagai macam keadaan kemampuannya.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 3. QUR'AN HADITS - KELAS III (35 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "qh-3",
+        mapel: "Qur'an Hadits",
+        kelas: "III",
+        kelasLabel: "Kelas III (Tiga)",
+        icon: "fa-book-quran",
+        gradient: "from-amber-500 to-orange-500",
+        badgeBg: "bg-amber-100 text-amber-800",
+        total: 35, pg: 20, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami ketentuan dan keutamaan salat berjamaah.", tp: "Memahami hukum melaksanakan salat berjamaah.", indikator: "Disajikan pertanyaan tentang ibadah salat berjamaah, siswa dapat menentukan hukum melaksanakannya.", level: "C1", bentuk: "PG" },
+          { no: 2, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami tata cara dan posisi dalam salat berjamaah.", tp: "Memahami tugas atau posisi makmum terhadap imam.", indikator: "Disajikan pernyataan tentang pelaksanaan salat berjamaah, siswa dapat menentukan tugas utama seorang makmum.", level: "C2", bentuk: "PG" },
+          { no: 3, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami ketentuan jumlah minimal pelaksanaan salat berjamaah.", tp: "Menguraikan jumlah minimal orang untuk salat berjamaah.", indikator: "Disajikan pertanyaan tentang jumlah minimal orang dalam salat berjamaah, siswa dapat menentukan angkanya.", level: "C1", bentuk: "PG" },
+          { no: 4, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami keutamaan salat berjamaah berdasarkan hadis.", tp: "Memahami derajat keutamaan pahala salat berjamaah dibanding salat sendirian.", indikator: "Disajikan informasi hadis riwayat Bukhari Muslim, siswa dapat menentukan perbandingan derajat pahala salat berjamaah.", level: "C2", bentuk: "PG" },
+          { no: 5, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami tata cara berdiri makmum dalam salat berjamaah.", tp: "Menentukan posisi berdiri makmum jika hanya ada satu orang.", indikator: "Disajikan kondisi jumlah makmum satu orang, siswa dapat menentukan posisi berdiri yang tepat di sebelah imam.", level: "C3", bentuk: "PG" },
+          { no: 6, materi: "Surat Al-Fatihah", cp: "Peserta didik mampu memahami kandungan dan jumlah ayat surat Al-Fatihah.", tp: "Memahami jumlah ayat dalam surat Al-Fatihah.", indikator: "Disajikan pertanyaan tentang surat Al-Fatihah yang wajib dibaca dalam salat, siswa dapat menentukan jumlah ayatnya.", level: "C1", bentuk: "PG" },
+          { no: 7, materi: "Surat An-Nas", cp: "Peserta didik mampu memahami arti dan kandungan surat An-Nas.", tp: "Menguraikan arti kata An-Nas dalam bahasa Indonesia.", indikator: "Disajikan terjemahan atau kosa kata surat dalam Al-Qur'an, siswa dapat menentukan arti kata An-Nas.", level: "C2", bentuk: "PG" },
+          { no: 8, materi: "Surat Al-Ikhlas", cp: "Peserta didik mampu memahami isi pokok dan kandungan surat Al-Ikhlas.", tp: "Memahami surat yang secara khusus menjelaskan keesaan Allah SWT.", indikator: "Disajikan pernyataan tentang sifat Allah Maha Esa tanpa sekutu, siswa dapat menentukan nama surat yang menjelaskannya.", level: "C2", bentuk: "PG" },
+          { no: 9, materi: "Surat Al-Ikhlas", cp: "Peserta didik mampu mengidentifikasi ayat-ayat pendek dalam Al-Qur'an (Surat Al-Ikhlas).", tp: "Mengenal bunyi ayat pertama surat Al-Ikhlas.", indikator: "Disajikan lafaz ayat Qul huwallahu ahad, siswa dapat menentukan surat tempat ayat tersebut berada.", level: "C1", bentuk: "PG" },
+          { no: 10, materi: "Hukum Qalqalah", cp: "Peserta didik mampu memahami ilmu tajwid (hukum bacaan qalqalah dan huruf-hurufnya).", tp: "Mengidentifikasi huruf-huruf qalqalah.", indikator: "Disajikan pertanyaan tentang hukum bacaan qalqalah, siswa dapat menentukan kelompok huruf qalqalah dengan benar.", level: "C1", bentuk: "PG" },
+          { no: 11, materi: "Hukum Qalqalah", cp: "Peserta didik mampu menerapkan bacaan qalqalah pada ayat Al-Qur'an (Surat Al-Falaq).", tp: "Menerapkan cara membaca huruf qalqalah berharakat sukun karena waqaf.", indikator: "Disajikan potongan ayat surat Al-Falaq (min syarri mā khalaq), siswa dapat menentukan cara membaca huruf qalqalah-nya.", level: "C3", bentuk: "PG" },
+          { no: 12, materi: "Surat Al-Falaq & An-Nas", cp: "Peserta didik mampu memahami sebutan khusus bagi surat Al-Falaq dan An-Nas.", tp: "Mengenal nama lain dari surat Al-Falaq dan An-Nas (Al-Mu'awwidzatain).", indikator: "Disajikan pernyataan mengenai dua surat perlindungan kepada Allah SWT, siswa dapat menentukan sebutan khusus keduanya.", level: "C2", bentuk: "PG" },
+          { no: 13, materi: "Hukum Qalqalah", cp: "Peserta didik mampu mengklasifikasikan jenis-jenis qalqalah (Qalqalah Kubra).", tp: "Memahami definisi Qalqalah Kubra berdasarkan letak hurufnya di akhir ayat.", indikator: "Disajikan penjelasan huruf qalqalah di akhir kata atau akhir ayat yang dibaca memantul karena berhenti, siswa dapat menentukan istilahnya.", level: "C2", bentuk: "PG" },
+          { no: 14, materi: "Surat Al-Falaq", cp: "Peserta didik mampu memahami isi kandungan surat Al-Falaq.", tp: "Menguraikan arti potongan ayat dari surat Al-Falaq.", indikator: "Disajikan potongan ayat dari surat Al-Falaq (wa min syarri hāsidin izā hasad), siswa dapat menentukan artinya.", level: "C2", bentuk: "PG" },
+          { no: 15, materi: "Hukum Qalqalah", cp: "Peserta didik mampu mengidentifikasi penerapan jenis qalqalah pada akhir surat Al-Ikhlas.", tp: "Menentukan jenis qalqalah pada kata akhir surat Al-Ikhlas (Ahad).", indikator: "Disajikan lafaz di akhir surat Al-Ikhlas saat berhenti, siswa dapat menentukan jenis qalqalah-nya.", level: "C3", bentuk: "PG" },
+          { no: 16, materi: "Surat Al-Fatihah", cp: "Peserta didik mampu memahami fungsi surat pembuka Al-Qur'an.", tp: "Mengenal surat pembuka dalam Al-Qur'an sebelum membaca surat lain dalam salat.", indikator: "Disajikan pernyataan tentang pembuka Al-Qur'an yang dibaca sebelum surat lain dalam salat, siswa dapat menentukan nama surat tersebut.", level: "C1", bentuk: "PG" },
+          { no: 17, materi: "Hukum Qalqalah", cp: "Peserta didik mampu mengklasifikasikan jenis-jenis qalqalah (Qalqalah Sughra).", tp: "Memahami definisi Qalqalah Sughra pada huruf berharakat sukun asli di tengah kata.", indikator: "Disajikan deskripsi huruf qalqalah berharakat sukun asli di tengah kata, siswa dapat menentukan jenis bacaannya.", level: "C2", bentuk: "PG" },
+          { no: 18, materi: "Surat An-Nas", cp: "Peserta didik mampu memahami isi kandungan surat An-Nas.", tp: "Mengidentifikasi bentuk kejahatan yang disebutkan dalam surat An-Nas.", indikator: "Disajikan pertanyaan tentang hal yang diajarkan dalam surat An-Nas, siswa dapat menentukan bentuk kejahatan dari bisikan setan.", level: "C2", bentuk: "PG" },
+          { no: 19, materi: "Surat Al-Fatihah", cp: "Peserta didik mampu memahami kedudukan dan nama lain surat Al-Fatihah (Ummul Kitab).", tp: "Mengenal sebutan lain bagi surat Al-Fatihah.", indikator: "Disajikan informasi kedudukan surat Al-Fatihah selain Ummul Qur'an, siswa dapat menentukan nama lain yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 20, materi: "Hukum Qalqalah", cp: "Peserta didik mampu menerapkan bacaan qalqalah pada potongan ayat Al-Qur'an.", tp: "Mengidentifikasi hukum bacaan pada potongan surat Al-Ikhlas.", indikator: "Disajikan potongan ayat dari surat Al-Ikhlas (lam yalid wa lam yūlad), siswa dapat menentukan hukum bacaan pantulannya.", level: "C3", bentuk: "PG" },
+          { no: 21, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami ketentuan gerakan dan posisi dalam salat berjamaah.", tp: "Mengidentifikasi larangan bagi makmum terhadap gerakan imam.", indikator: "Disajikan pernyataan tentang larangan mendahului gerakan, siswa dapat menuliskan istilah larangan tersebut dalam salat berjamaah.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 22, materi: "Surat Al-Fatihah", cp: "Peserta didik mampu memahami urutan surat dalam Al-Qur'an.", tp: "Menuliskan posisi urutan surat Al-Fatihah dalam mushaf Al-Qur'an.", indikator: "Disajikan pertanyaan posisi urutan surat Al-Fatihah, siswa dapat menuliskan angka urutannya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 23, materi: "Surat An-Nas", cp: "Peserta didik mampu memahami isi kandungan surat An-Nas.", tp: "Menuliskan tempat memohon perlindungan dari bisikan jahat dalam surat An-Nas.", indikator: "Disajikan isi kandungan surat An-Nas tentang golongan jin dan manusia, siswa dapat menuliskan pelindungnya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 24, materi: "Surat An-Nas", cp: "Peserta didik mampu memahami urutan surat An-Nas dalam Al-Qur'an.", tp: "Menuliskan nomor urut surat An-Nas.", indikator: "Disajikan pertanyaan mengenai nomor urut surat An-Nas di dalam Al-Qur'an, siswa dapat menuliskan angka urutannya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 25, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami adab merapatkan shaf dalam salat berjamaah.", tp: "Menyebutkan istilah merapatkan dan meluruskan barisan salat.", indikator: "Disajikan pernyataan merapikan saf, siswa dapat menuliskan istilah bagian barisan salat berjamaah.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 26, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami istilah makmum yang terlambat (Masbuk).", tp: "Mengenal istilah bagi makmum yang datang terlambat mengikuti sebagian rukun imam.", indikator: "Disajikan deskripsi makmum yang datang terlambat dan tertinggal rakaat, siswa dapat menuliskan istilah makmum tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 27, materi: "Surat Al-Ikhlas", cp: "Peserta didik mampu memahami kandungan akhlak dalam surat Al-Ikhlas.", tp: "Menyebutkan pelajaran keikhlasan dalam berbuat berdasarkan surat Al-Ikhlas.", indikator: "Disajikan pembelajaran dari surat Al-Ikhlas, siswa dapat menuliskan makna ikhlas karena Allah.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 28, materi: "Salat Berjamaah", cp: "Peserta didik mampu memahami ketentuan imam salat berjamaah.", tp: "Mengetahui hukum perempuan menjadi imam bagi makmum laki-laki.", indikator: "Disajikan pertanyaan ketentuan imam salat, siswa dapat menuliskan ketentuan jenis kelamin bagi makmumnya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 29, materi: "Hukum Qalqalah", cp: "Peserta didik mampu memahami jenis-jenis qalqalah (Qalqalah Kubra).", tp: "Menuliskan jenis qalqalah yang memantul di akhir kata atau akhir ayat.", indikator: "Disajikan deskripsi bacaan qalqalah di akhir ayat, siswa dapat menuliskan jenis qalqalah kubra.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 30, materi: "Hukum Qalqalah", cp: "Peserta didik mampu memahami jenis-jenis qalqalah (Qalqalah Sughra).", tp: "Menuliskan jenis qalqalah yang terletak di tengah kata.", indikator: "Disajikan deskripsi huruf qalqalah di tengah kata, siswa dapat menuliskan jenis qalqalah sughra.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 31, materi: "Salat Berjamaah", cp: "Peserta didik mampu menghafal dan menuliskan hadis tentang keutamaan salat berjamaah.", tp: "Menuliskan teks hadis keutamaan salat berjamaah dalam bahasa Arab.", indikator: "Siswa dapat menuliskan lafaz hadis lengkap tentang keutamaan salat berjamaah dalam bahasa Arab.", level: "C3", bentuk: "Uraian" },
+          { no: 32, materi: "Salat Berjamaah", cp: "Peserta didik mampu mengartikan hadis tentang keutamaan salat berjamaah.", tp: "Menerjemahkan arti hadis keutamaan salat berjamaah ke dalam bahasa Indonesia.", indikator: "Siswa dapat menuliskan arti dari hadis keutamaan salat berjamaah dengan tepat.", level: "C2", bentuk: "Uraian" },
+          { no: 33, materi: "Hukum Qalqalah", cp: "Peserta didik mampu memberikan contoh penerapan hukum qalqalah pada ayat Al-Qur'an.", tp: "Menuliskan beberapa contoh ayat dalam Al-Qur'an yang mengandung hukum qalqalah beserta keterangannya.", indikator: "Siswa dapat menuliskan tiga contoh ayat dalam Al-Qur'an yang mengandung bacaan qalqalah.", level: "C3", bentuk: "Uraian" },
+          { no: 34, materi: "Surat Al-Falaq", cp: "Peserta didik mampu menuliskan ayat tertentu dari surat Al-Falaq.", tp: "Menuliskan teks ayat ketiga dari surat Al-Falaq.", indikator: "Siswa dapat menuliskan ayat ketiga dari surat Al-Falaq menggunakan tulisan Arab dengan benar.", level: "C3", bentuk: "Uraian" },
+          { no: 35, materi: "Surat Al-Ikhlas", cp: "Peserta didik mampu menuliskan keseluruhan ayat dari surat Al-Ikhlas.", tp: "Menuliskan seluruh ayat dari surat Al-Ikhlas dalam bahasa Arab.", indikator: "Siswa dapat menuliskan semua ayat dari surat Al-Ikhlas secara lengkap dalam bahasa Arab.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 4. SEJARAH KEBUDAYAAN ISLAM (SKI) - KELAS III (35 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "ski-3",
+        mapel: "Sejarah Kebudayaan Islam (SKI)",
+        kelas: "III",
+        kelasLabel: "Kelas III (Tiga)",
+        icon: "fa-landmark-dome",
+        gradient: "from-violet-500 to-purple-600",
+        badgeBg: "bg-violet-100 text-violet-800",
+        total: 35, pg: 20, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Kepercayaan Masyarakat Arab Jahiliyah", cp: "Peserta didik mampu memahami kondisi masyarakat Arab sebelum Islam (kepercayaan/sesembahan).", tp: "Mengidentifikasi nama-nama sesembahan atau berhala kaum Jahiliyah.", indikator: "Disajikan pertanyaan tentang kepercayaan masyarakat Arab sebelum Islam menyembah benda-benda tertentu, siswa dapat menentukan salah satu nama sesembahan kaum Jahiliyah.", level: "C1", bentuk: "PG" },
+          { no: 2, materi: "Kehidupan Sosial Masyarakat Arab", cp: "Peserta didik mampu memahami tradisi dan kebiasaan buruk masyarakat Arab sebelum Islam.", tp: "Mengidentifikasi kebiasaan mengonsumsi minuman keras yang melambangkan kekayaan.", indikator: "Disajikan deskripsi kebiasaan sosial masyarakat Arab mengonsumsi minuman tertentu yang dikaitkan dengan kedudukan, siswa dapat menentukan sifat barang tersebut yang melambangkan kekayaan.", level: "C2", bentuk: "PG" },
+          { no: 3, materi: "Kepercayaan Masyarakat Arab", cp: "Peserta didik mampu memahami bentuk keyakinan ketuhanan masyarakat Arab sebelum Islam.", tp: "Memahami istilah keyakinan menyembah satu Tuhan (Tauhid).", indikator: "Disajikan pernyataan tentang keyakinan kelompok masyarakat terhadap Tuhan, siswa dapat menentukan istilah keagamaan untuk menyembah satu Tuhan.", level: "C1", bentuk: "PG" },
+          { no: 4, materi: "Kepercayaan Masyarakat Arab", cp: "Peserta didik mampu memahami beragam kepercayaan unsur alam pada masa Jahiliyah.", tp: "Mengenal sebutan penganut penyembah api (Majusi).", indikator: "Disajikan deskripsi kelompok masyarakat yang menjadikan unsur alam sebagai bagian keyakinan dengan menyembah api, siswa dapat menentukan sebutan penganutnya.", level: "C1", bentuk: "PG" },
+          { no: 5, materi: "Akhlak dan Tradisi Masyarakat Arab", cp: "Peserta didik mampu memahami sisi positif dari sebagian masyarakat Arab Jahiliyah.", tp: "Mengetahui nilai positif atau sifat terpuji yang masih dijunjung tinggi sebagian masyarakat Arab.", indikator: "Disajikan pernyataan tentang sisi positif di tengah kebiasaan buruk masyarakat Arab Jahiliyah, siswa dapat menentukan salah satu nilai positif yang dimiliki.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Berhala Kaum Jahiliyah", cp: "Peserta didik mampu memahami tradisi penyembahan patung berhala masyarakat Arab Jahiliyah.", tp: "Mengidentifikasi nama-nama berhala yang disembah masyarakat Arab.", indikator: "Disajikan deskripsi kebiasaan membuat dan menyembah patung berhala di berbagai tempat, siswa dapat menentukan salah satu nama berhala yang disembah.", level: "C1", bentuk: "PG" },
+          { no: 7, materi: "Sistem Sosial Masyarakat Arab", cp: "Peserta didik mampu memahami lembaga permusyawaratan masyarakat Arab pra-Islam.", tp: "Mengenal nama lembaga tempat tokoh masyarakat berdiskusi dan bertukar pendapat.", indikator: "Disajikan deskripsi tentang tempat atau lembaga yang digunakan para tokoh masyarakat untuk berdiskusi dan bertukar pendapat, siswa dapat menentukan nama lembaga tersebut.", level: "C1", bentuk: "PG" },
+          { no: 8, materi: "Kelahiran Nabi Muhammad saw.", cp: "Peserta didik mampu memahami silsilah dan arti nama Nabi Muhammad saw.", tp: "Mengartikan nama mulia 'Muhammad'.", indikator: "Disajikan kisah penamaan cucu oleh Abdul Muthalib dari putranya Abdullah, siswa dapat menentukan arti dari nama Muhammad.", level: "C1", bentuk: "PG" },
+          { no: 9, materi: "Kelahiran Nabi Muhammad saw.", cp: "Peserta didik mampu memahami peristiwa penting kelahiran Nabi Muhammad saw.", tp: "Mengetahui tanggal kelahiran Nabi Muhammad saw.", indikator: "Disajikan informasi mengenai hari peringatan kelahiran Rasulullah saw. berdasarkan riwayat sejarah, siswa dapat menentukan tanggal kelahiran beliau.", level: "C1", bentuk: "PG" },
+          { no: 10, materi: "Kelahiran Nabi Muhammad saw.", cp: "Peserta didik mampu memahami kisah ibunda Nabi Muhammad saw. saat mengandung.", tp: "Mengidentifikasi kondisi ibunda Nabi Muhammad saw. saat mengandung.", indikator: "Disajikan kisah pengalaman masa kehamilan ibunda Nabi Muhammad saw., Siti Aminah, siswa dapat menentukan keadaan yang dirasakan selama masa kehamilan.", level: "C2", bentuk: "PG" },
+          { no: 11, materi: "Asal-Usul Bangsa Arab", cp: "Peserta didik mampu memahami silsilah dan asal-usul bangsa Arab.", tp: "Mengenal sebutan kelompok bangsa Arab keturunan Nabi Ismail a.s.", indikator: "Disajikan informasi pembagian bangsa Arab yang berasal dari keturunan Nabi Ismail a.s., siswa dapat menentukan sebutan dalam sejarah bagi kelompok tersebut.", level: "C2", bentuk: "PG" },
+          { no: 12, materi: "Peristiwa Tahun Gajah", cp: "Peserta didik mampu memahami peristiwa besar menjelang kelahiran Nabi Muhammad saw.", tp: "Mengetahui peristiwa penyerangan pasukan bergajah ke Ka'bah.", indikator: "Disajikan deskripsi peristiwa besar menjelang kelahiran Nabi Muhammad saw. terkait usaha pasukan menyerang bangunan suci, siswa dapat menentukan peristiwa tersebut.", level: "C1", bentuk: "PG" },
+          { no: 13, materi: "Kenabian Nabi Muhammad saw.", cp: "Peserta didik mampu memahami hikmah diutusnya Nabi Muhammad saw sebagai rahmat.", tp: "Mengetahui cakupan rahmat dengan diutusnya Nabi Muhammad saw. bagi semesta alam.", indikator: "Disajikan pernyataan tentang pengutusan nabi dan rasul untuk membawa perubahan besar bagi umat manusia, siswa dapat menentukan cakupan rahmat tersebut.", level: "C2", bentuk: "PG" },
+          { no: 14, materi: "Masa Transisi Menjelang Kenabian", cp: "Peserta didik mampu memahami perubahan sosial yang dibawa oleh kenabian.", tp: "Mengidentifikasi bentuk kebiasaan buruk yang dihapuskan dengan lahirnya ajaran Islam.", indikator: "Disajikan deskripsi perbuatan menyimpang masyarakat sebelum rasul diutus dan perubahan yang dibawa, siswa dapat menentukan hal yang dihapuskan.", level: "C2", bentuk: "PG" },
+          { no: 15, materi: "Tahun Gajah (Amul 'Fil)", cp: "Peserta didik mampu memahami penamaan tahun berdasarkan peristiwa penting (Amul Fil).", tp: "Mengenal sebutan tahun kelahiran Nabi Muhammad saw. dikaitkan dengan peristiwa pasukan bergajah.", indikator: "Disajikan kisah peristiwa pasukan bergajah yang hendak menghancurkan Ka'bah, siswa dapat menentukan sebutan tahun kelahiran Rasulullah saw. tersebut.", level: "C1", bentuk: "PG" },
+          { no: 16, materi: "Masa Kecil Nabi Muhammad saw.", cp: "Peserta didik mampu memahami masa penyusuan dan pengasuhan Nabi Muhammad saw.", tp: "Mengenal perempuan yang menyusui Nabi Muhammad saw. sebelum Siti Halimah.", indikator: "Disajikan narasi tradisi penyusuan bayi pada masa Arab sebelum disusui oleh ibunda Halimah, siswa dapat menentukan nama perempuan yang terlebih dahulu menyusuinya.", level: "C1", bentuk: "PG" },
+          { no: 17, materi: "Masa Kecil Nabi Muhammad saw.", cp: "Peserta didik mampu memahami masa pengasuhan Nabi Muhammad saw. di Bani Sa'ad.", tp: "Mengetahui durasi waktu Nabi Muhammad saw. diasuh oleh Siti Halimah di perkampungan Bani Sa'ad.", indikator: "Disajikan kisah pengasuhan Nabi Muhammad saw. di perkampungan Bani Sa'ad oleh Siti Halimah, siswa dapat menentukan lama waktu pengasuhan tersebut.", level: "C1", bentuk: "PG" },
+          { no: 18, materi: "Masa Kecil Nabi Muhammad saw.", cp: "Peserta didik mampu memahami pihak yang merawat Nabi Muhammad saw. setelah ibunda wafat.", tp: "Mengidentifikasi kakek yang merawat Nabi Muhammad saw. pasca wafatnya ibunda tercinta.", indikator: "Disajikan kisah kesedihan Nabi Muhammad saw. setelah kehilangan ibundanya, siswa dapat menentukan pihak yang mengasuh beliau sepeninggal ibundanya.", level: "C1", bentuk: "PG" },
+          { no: 19, materi: "Masa Remaja Nabi Muhammad saw.", cp: "Peserta didik mampu memahami perjalanan dagang Nabi Muhammad saw. pada masa remaja.", tp: "Mengetahui daerah tujuan perjalanan dagang bersama paman saat usia remaja.", indikator: "Disajikan kisah pengalaman penting Nabi Muhammad saw. ketika remaja mengikuti pamannya melakukan perjalanan perdagangan, siswa dapat menentukan daerah tujuan perdagangan tersebut.", level: "C1", bentuk: "PG" },
+          { no: 20, materi: "Masa Remaja Nabi Muhammad saw.", cp: "Peserta didik mampu memahami keikutsertaan Nabi Muhammad saw. dalam Perang Fajar (Fijar).", tp: "Mengenal peristiwa peperangan antar suku yang disaksikan Nabi Muhammad saw. di usia remaja.", indikator: "Disajikan deskripsi peristiwa peperangan antarsuku Arab yang disaksikan Nabi Muhammad saw. saat remaja, siswa dapat menentukan nama perang tersebut.", level: "C1", bentuk: "PG" },
+          { no: 21, materi: "Ka'bah Pusat Keagamaan", cp: "Peserta didik mampu memahami fungsi dan kedudukan Ka'bah bagi bangsa Arab.", tp: "Menuliskan pusat kedudukan Ka'bah bagi masyarakat Arab Jahiliyah.", indikator: "Disajikan pernyataan tentang bangunan suci Ka'bah yang dihormati dan didatangi masyarakat dari berbagai wilayah pada masa Jahiliyah, siswa dapat menuliskan fungsi Ka'bah sebagai pusat hal tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 22, materi: "Kondisi Sosial Bangsa Arab", cp: "Peserta didik mampu memahami kondisi hubungan antarsuku bangsa Arab pra-Islam.", tp: "Menuliskan istilah hubungan antarkelompok yang sulit bersatu atau berselisih.", indikator: "Disajikan pernyataan mengenai perselisihan antarkelompok suku bangsa Arab pada masa lalu, siswa dapat menuliskan sebutan kondisi hubungan antarkelompok tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 23, materi: "Kepercayaan Pra-Islam", cp: "Peserta didik mampu memahami definisi keyakinan terhadap roh atau kekuatan gaib (Animisme).", tp: "Menuliskan istilah keyakinan terhadap roh yang mendiami benda tertentu.", indikator: "Disajikan deskripsi keyakinan masyarakat terhadap kekuatan roh atau makhluk yang mendiami benda-benda tertentu, siswa dapat menuliskan istilah kepercayaan tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 24, materi: "Pernikahan Rasulullah saw.", cp: "Peserta didik mampu memahami pernikahan Nabi Muhammad saw. dengan Siti Khadijah.", tp: "Menuliskan nama istri Nabi Muhammad saw. yang dinikahi pada usia 25 tahun.", indikator: "Disajikan informasi tentang pemuda terpercaya yang membangun rumah tangga melalui pernikahan pada usia 25 tahun, siswa dapat menuliskan nama istrinya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 25, materi: "Bentuk Kepercayaan", cp: "Peserta didik mampu memahami definisi keyakinan mempercayai lebih dari satu Tuhan (Politeisme/Syirik).", tp: "Menuliskan istilah keyakinan kepada beberapa Tuhan sekaligus.", indikator: "Disajikan pernyataan tentang keyakinan manusia yang mempercayai beberapa Tuhan sekaligus, siswa dapat menuliskan istilah bentuk keyakinan tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 26, materi: "Mata Pencaharian Bangsa Arab", cp: "Peserta didik mampu memahami mata pencaharian utama bangsa Arab di padang pasir.", tp: "Menuliskan bidang mata pencaharian mayoritas bangsa Arab.", indikator: "Disajikan narasi kondisi geografis padang pasir dan keterampilan bertahan hidup bangsa Arab, siswa dapat menuliskan bidang keterampilan atau mata pencaharian mereka.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 27, materi: "Aktivitas Ekonomi Bangsa Arab", cp: "Peserta didik mampu memahami ragam aktivitas ekonomi bangsa Arab.", tp: "Menuliskan bentuk kegiatan ekonomi seperti berdagang atau bercocok tanam.", indikator: "Disajikan pernyataan pemanfaatan kondisi lingkungan untuk memperoleh penghasilan dalam kegiatan ekonomi, siswa dapat menuliskan contoh mata pencaharian mereka.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 28, materi: "Tokoh Penting Quraisy", cp: "Peserta didik mampu memahami kedudukan Abdul Muthalib sebagai kakek Nabi.", tp: "Menuliskan peran atau kedudukan Abdul Muthalib terhadap bangunan Ka'bah.", indikator: "Disajikan narasi tentang tokoh terhormat yang bertanggung jawab terhadap bangunan suci Ka'bah, yaitu kakek Nabi Muhammad saw. bernama Abdul Muthalib, siswa dapat menuliskan kedudukan tokoh tersebut terhadap Ka'bah.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 29, materi: "Peristiwa Tahun Gajah", cp: "Peserta didik mampu memahami pemimpin pasukan penyerang Ka'bah.", tp: "Menuliskan nama raja pemimpin penyerangan Ka'bah.", indikator: "Disajikan informasi penyerangan Ka'bah oleh pasukan bergajah sebelum kelahiran nabi, siswa dapat menuliskan nama pemimpin pasukan penyerang tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 30, materi: "Keistimewaan Kelahiran Rasulullah", cp: "Peserta didik mampu memahami tanda-tanda keistimewaan alam saat kelahiran nabi.", tp: "Menuliskan keadaan lingkungan sekitar tempat kelahiran yang menjadi terang.", indikator: "Disajikan deskripsi kejadian luar biasa saat kelahiran nabi yang dikaitkan dengan keadaan lingkungan di sekitar tempat kelahiran, siswa dapat menuliskan kondisi keadaan tanah atau tempat tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 31, materi: "Akhlak Masyarakat Jahiliyah", cp: "Peserta didik mampu menguraikan kebiasaan buruk masyarakat Arab Jahiliyah.", tp: "Menyebutkan contoh kebiasaan buruk orang Arab Jahiliyah.", indikator: "Siswa dapat menyebutkan contoh-contoh kebiasaan buruk masyarakat Arab Jahiliyah yang merugikan diri sendiri maupun orang lain.", level: "C2", bentuk: "Uraian" },
+          { no: 32, materi: "Masa Pengasuhan Rasulullah", cp: "Peserta didik mampu menjelaskan alasan penambahan masa pengasuhan Siti Halimah.", tp: "Menjelaskan penyebab bertambahnya waktu pengasuhan Siti Halimah terhadap Nabi Muhammad saw.", indikator: "Siswa dapat menjelaskan alasan mengapa waktu pengasuhan Siti Halimah terhadap Nabi Muhammad saw. bertambah lama.", level: "C3", bentuk: "Uraian" },
+          { no: 33, materi: "Silsilah Rasulullah saw.", cp: "Peserta didik mampu menuliskan silsilah keturunan Nabi Muhammad saw.", tp: "Menyebutkan silsilah keturunan Nabi Muhammad saw. sampai kakek buyutnya.", indikator: "Siswa dapat menyebutkan silsilah keturunan Nabi Muhammad saw. dari garis leluhur sampai pada kakek buyut yang bernama Kilab.", level: "C2", bentuk: "Uraian" },
+          { no: 34, materi: "Keistimewaan Kelahiran Rasulullah", cp: "Peserta didik mampu menguraikan kondisi luar biasa saat kelahiran Nabi Muhammad saw.", tp: "Menyebutkan peristiwa atau kondisi luar biasa yang mengiringi kelahiran Rasulullah saw.", indikator: "Siswa dapat menyebutkan peristiwa atau kondisi luar biasa yang mengiringi kelahiran Rasulullah saw. berdasarkan riwayat sejarah.", level: "C2", bentuk: "Uraian" },
+          { no: 35, materi: "Perjalanan ke Syam", cp: "Peserta didik mampu menjelaskan kisah pertemuan pendeta Buhaira dengan Abu Thalib.", tp: "Menjelaskan alasan Pendeta Buhaira menasihati Abu Thalib terkait tanda-tanda kenabian.", indikator: "Siswa dapat menjelaskan alasan Pendeta Buhaira memberikan nasihat kepada Abu Thalib untuk merawat Nabi Muhammad saw. serta risiko yang dikhawatirkan jika pihak tertentu mengetahuinya.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 5. SEJARAH KEBUDAYAAN ISLAM (SKI) - KELAS IV (45 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "ski-4",
+        mapel: "Sejarah Kebudayaan Islam (SKI)",
+        kelas: "IV",
+        kelasLabel: "Kelas IV (Empat)",
+        icon: "fa-kaaba",
+        gradient: "from-rose-500 to-pink-600",
+        badgeBg: "bg-rose-100 text-rose-800",
+        total: 45, pg: 30, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Hijrah ke Habasyah", cp: "Peserta didik mampu memahami sejarah hijrah kaum muslimin ke Habasyah tahap pertama.", tp: "Mengidentifikasi pemimpin hijrah kaum muslimin pada tahap awal ke Habasyah.", indikator: "Disajikan informasi tentang perintah hijrah kaum muslimin ke Habasyah (Ethiopia) tahap pertama, siswa dapat menentukan nama pemimpin rombongan hijrah tersebut.", level: "C1", bentuk: "PG" },
+          { no: 2, materi: "Dakwah Terang-terangan", cp: "Peserta didik mampu memahami tahapan dakwah Nabi Muhammad saw. secara terang-terangan di bukit Safa.", tp: "Mengenal paman Nabi yang menentang dan menghina saat dakwah di bukit Safa.", indikator: "Disajikan kisah dakwah terbuka di bukit Safa saat Nabi Muhammad saw. mengajak penduduk Makkah kepada tauhid, siswa dapat menentukan nama paman beliau yang menentang dan menghina.", level: "C1", bentuk: "PG" },
+          { no: 3, materi: "Tahun Kesedihan (Amul Huzni)", cp: "Peserta didik mampu memahami peristiwa Amul Huzni (tahun kesedihan).", tp: "Mengidentifikasi dua tokoh penting yang wafat pada tahun kesedihan (Amul Huzni).", indikator: "Disajikan deskripsi tahun ke-10 kenabian ketika Nabi kehilangan pembela utamanya, siswa dapat menentukan dua tokoh penting yang wafat pada tahun tersebut.", level: "C1", bentuk: "PG" },
+          { no: 4, materi: "Permusuhan Abu Lahab", cp: "Peserta didik mampu memahami sebab permusuhan Abu Lahab terhadap Islam.", tp: "Menganalisis alasan penolakan dan kebencian Abu Lahab kepada Nabi Muhammad saw.", indikator: "Disajikan penjelasan mengenai sikap permusuhan Abu Lahab selama bertahun-tahun, siswa dapat menentukan alasan mendasar di balik kebenciannya kepada Nabi Muhammad saw..", level: "C3", bentuk: "PG" },
+          { no: 5, materi: "Kandungan Surah Al-Lahab", cp: "Peserta didik mampu memahami isi kandungan Surah Al-Lahab.", tp: "Mengidentifikasi sebutan atau sifat istri Abu Lahab dalam Surah Al-Lahab ayat 4.", indikator: "Disajikan keterangan tentang hukuman bagi Abu Lahab dan istrinya dalam Surah Al-Lahab, siswa dapat menentukan julukan bagi istri Abu Lahab pada ayat tersebut.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Tokoh Penentang Dakwah", cp: "Peserta didik mampu memahami akhir riwayat hidup Ummu Jamil istri Abu Lahab.", tp: "Mengetahui kisah akhir hayat Ummu Jamil.", indikator: "Disajikan kisah gangguan Ummu Jamil di jalan yang dilalui Nabi, siswa dapat menentukan akhir riwayat hidupnya berdasarkan materi sejarah.", level: "C1", bentuk: "PG" },
+          { no: 7, materi: "Pemboikotan Bani Hasyim", cp: "Peserta didik mampu memahami peristiwa pemboikotan kaum Quraisy terhadap Bani Hasyim.", tp: "Mengetahui durasi waktu pelaksanaan pemboikotan kaum Quraisy.", indikator: "Disajikan narasi kesepakatan rapat kaum Quraisy untuk memboikot Bani Hasyim dan Bani Abdul Mutalib, siswa dapat menentukan lama waktu berjalannya pemboikotan tersebut.", level: "C1", bentuk: "PG" },
+          { no: 8, materi: "Pemboikotan Bani Hasyim", cp: "Peserta didik mampu memahami sejarah penulisan piagam pemboikotan kaum Quraisy.", tp: "Mengidentifikasi tokoh yang menulis lembaran/sahifah pemboikotan.", indikator: "Disajikan kisah penempelan lembaran perjanjian pemboikotan di Ka'bah hingga akhirnya disadari terlalu berlebihan, siswa dapat menentukan tokoh yang menulis sahifah tersebut.", level: "C1", bentuk: "PG" },
+          { no: 9, materi: "Keteguhan Iman Sahabat", cp: "Peserta didik mampu meneladani keteguhan iman para sahabat (Utsman bin Affan).", tp: "Memahami sikap keteguhan Utsman bin Affan dalam menghadapi tekanan keluarga.", indikator: "Disajikan kisah Utsman bin Affan yang menolak tekanan keluarganya untuk meninggalkan Islam, siswa dapat menyimpulkan sikap mulia yang ditunjukkan beliau.", level: "C2", bentuk: "PG" },
+          { no: 10, materi: "Keteguhan Iman Sahabat", cp: "Peserta didik mampu meneladani keteguhan iman para sahabat (Khalid bin Utbah).", tp: "Mengidentifikasi tindakan Khalid bin Utbah setelah melarikan diri dari penjara ayahnya.", indikator: "Disajikan kisah Khalid bin Utbah yang dipenjara oleh ayahnya karena menolak kembali ke agama nenek moyang lalu melarikan diri, siswa dapat menentukan tindakan yang diambilnya.", level: "C2", bentuk: "PG" },
+          { no: 11, materi: "Keteguhan Iman Sahabat", cp: "Peserta didik mampu meneladani keteguhan iman para sahabat (Mus'ab bin Umair).", tp: "Mengetahui ujian berat yang dialami Mus'ab bin Umair dari keluarga kaya.", indikator: "Disajikan kisah Mus'ab bin Umair yang diusir dari rumah dan kehilangan hak waris, siswa dapat menentukan penyebab utama peristiwa tersebut.", level: "C2", bentuk: "PG" },
+          { no: 12, materi: "Keteguhan Iman Bilal bin Rabah", cp: "Peserta didik mampu meneladani keteguhan iman Bilal bin Rabah.", tp: "Memahami arti ucapan 'Ahad' yang senantiasa diucapkan Bilal bin Rabah saat disiksa.", indikator: "Disajikan kisah penyiksaan Bilal bin Rabah yang tetap teguh mengucapkan kalimat 'Ahad', siswa dapat menentukan arti dari ucapan tersebut.", level: "C2", bentuk: "PG" },
+          { no: 13, materi: "Pembebasan Bilal bin Rabah", cp: "Peserta didik mampu memahami penyelamatan Bilal bin Rabah oleh Abu Bakar As-Shiddiq.", tp: "Menentukan tindakan Abu Bakar As-Shiddiq terhadap Bilal bin Rabah.", indikator: "Disajikan kisah penindihan batu besar di padang pasir kepada Bilal, siswa dapat menentukan bentuk tindakan pertolongan yang diberikan oleh Abu Bakar As-Shiddiq.", level: "C2", bentuk: "PG" },
+          { no: 14, materi: "Kisah Keluarga Yasir", cp: "Peserta didik mampu memahami kisah keluarga Yasir dan penyiksaan kaum kafir Quraisy.", tp: "Mengidentifikasi reaksi Ammar setelah terpaksa menyatakan keluar dari Islam demi menyelamatkan diri.", indikator: "Disajikan kisah syahidnya Yasir, Sumayyah, dan penyiksaan Ammar hingga terpaksa mengucapkan perkataan kaum kafir, siswa dapat menentukan tindakan Ammar setelah itu.", level: "C2", bentuk: "PG" },
+          { no: 15, materi: "Kandungan Surah An-Nahl Ayat 106", cp: "Peserta didik mampu memahami pesan utama Surah An-Nahl ayat 106 bagi orang yang dipaksa kafir.", tp: "Menyimpulkan pesan hukum Surah An-Nahl ayat 106.", indikator: "Disajikan keterangan turunnya Surah An-Nahl ayat 106 sebagai jawaban atas keteguhan iman Ammar, siswa dapat menyimpulkan pesan utama dari ayat tersebut bagi orang dalam keadaan terpaksa.", level: "C3", bentuk: "PG" },
+          { no: 16, materi: "Biografi Sahabat Nabi", cp: "Peserta didik mampu memahami asal-usul keluarga Khabbab bin Al-Arat.", tp: "Mengetahui daerah asal ayah Khabbab bin Al-Arat.", indikator: "Disajikan kisah Khabbab bin Al-Arat yang ayahnya merupakan tawanan perang dan menjadi budak di Makkah, siswa dapat menentukan daerah asal dari ayah Khabbab.", level: "C1", bentuk: "PG" },
+          { no: 17, materi: "Kesabaran Nabi Muhammad saw.", cp: "Peserta didik mampu meneladani kesabaran Nabi Muhammad saw. dalam menghadapi gangguan kafir Quraisy.", tp: "Mengidentifikasi bentuk sikap sabar Rasulullah saw. saat kaum muslimin diboikot.", indikator: "Disajikan narasi tentang berbagai rintangan dan tekanan berat yang dihadapi Nabi, siswa dapat menentukan bentuk bukti kesabaran yang beliau tunjukkan.", level: "C3", bentuk: "PG" },
+          { no: 18, materi: "Tahun Kesedihan (Amul Huzni)", cp: "Peserta didik mampu memahami peristiwa wafatnya pelindung Nabi (Amul Huzni).", tp: "Mengenal istilah tahun kesedihan pasca wafatnya Abu Talib dan Khadijah.", indikator: "Disajikan narasi kesedihan mendalam yang dialami Nabi Muhammad saw., siswa dapat menentukan arti atau sebutan untuk tahun tersebut.", level: "C1", bentuk: "PG" },
+          { no: 19, materi: "Strategi Dakwah Rasulullah saw.", cp: "Peserta didik mampu memahami strategi dakwah secara sembunyi-sembunyi di rumah Arqam bin Abil Arqam.", tp: "Mengetahui alasan dakwah dilakukan di rumah Arqam bin Abil Arqam.", indikator: "Disajikan kisah strategi dakwah secara diam-diam di rumah Arqam bin Abil Arqam, siswa dapat menentukan alasan pemilihan tempat tersebut.", level: "C2", bentuk: "PG" },
+          { no: 20, materi: "Keteguhan Dakwah Rasulullah saw.", cp: "Peserta didik mampu meneladani keteguhan sikap Nabi Muhammad saw. terhadap tawaran kaum kafir.", tp: "Menentukan sikap Nabi Muhammad saw. terhadap rayuan harta dan kekuasaan Utbah bin Rabiah.", indikator: "Disajikan kisah tawaran kekayaan dan kekuasaan dari Utbah bin Rabiah untuk menghentikan dakwah, siswa dapat menentukan sikap yang diambil oleh Nabi.", level: "C3", bentuk: "PG" },
+          { no: 21, materi: "Hijrah ke Habasyah", cp: "Peserta didik mampu memahami rincian jumlah rombongan hijrah ke Habasyah tahap pertama.", tp: "Mengetahui jumlah laki-laki dan perempuan pada hijrah tahap pertama ke Habasyah.", indikator: "Disajikan informasi keberangkatan para sahabat hijrah ke Habasyah, siswa dapat menentukan rincian jumlah rombongan yang ikut serta pada tahap tersebut.", level: "C1", bentuk: "PG" },
+          { no: 22, materi: "Akhlak Rasulullah saw.", cp: "Peserta didik mampu meneladani kasih sayang Nabi Muhammad saw. kepada keluarganya.", tp: "Mengidentifikasi bentuk perhatian dan kasih sayang Nabi kepada istrinya (Aisyah).", indikator: "Disajikan ilustrasi interaksi Rasulullah saw. dengan istrinya Aisyah saat beliau mendapati Aisyah belum ke pasar, siswa dapat menentukan ungkapan kasih sayang yang disampaikan.", level: "C2", bentuk: "PG" },
+          { no: 23, materi: "Kemuliaan Anak Perempuan dalam Islam", cp: "Peserta didik mampu memahami pandangan Islam terhadap anak perempuan.", tp: "Mengetahui sikap Nabi Muhammad saw. dalam memuliakan anak perempuan menentang tradisi Jahiliyah.", indikator: "Disajikan narasi kebiasaan buruk bangsa Arab Jahiliyah mengubur anak perempuan hidup-hidup, siswa dapat menentukan prinsip pandangan Nabi Muhammad saw. terhadap anak perempuan.", level: "C2", bentuk: "PG" },
+          { no: 24, materi: "Kasih Sayang Rasulullah saw.", cp: "Peserta didik mampu meneladani kasih sayang Nabi Muhammad saw. kepada putrinya (Fatimah).", tp: "Mengetahui tindakan Nabi saat Fatimah menangis karena gangguan Abu Jahal di Masjidilharam.", indikator: "Disajikan kisah Fatimah yang punggungnya terkena kotoran hewan lemparan Abu Jahal di Masjidilharam, siswa dapat menentukan tindakan yang dilakukan oleh Nabi Muhammad saw..", level: "C2", bentuk: "PG" },
+          { no: 25, materi: "Kasih Sayang terhadap Binatang", cp: "Peserta didik mampu memahami ajaran kasih sayang Nabi Muhammad saw. terhadap binatang.", tp: "Mengetahui kisah wanita yang diazab karena mengurung kucing.", indikator: "Disajikan kisah hadis tentang seorang wanita yang dimasukkan ke neraka akibat mengurung seekor kucing, siswa dapat menentukan penyebab hukuman tersebut.", level: "C2", bentuk: "PG" },
+          { no: 26, materi: "Hijrah ke Habasyah", cp: "Peserta didik mampu memahami latar belakang hijrah kaum muslimin ke Habasyah.", tp: "Menganalisis sebab utama anjuran Nabi bagi sebagian pengikutnya hijrah ke Habasyah.", indikator: "Disajikan kondisi sosial Makkah yang tidak kondusif bagi kaum muslimin, siswa dapat menentukan sebab utama dianjurkannya hijrah ke negeri Habasyah.", level: "C3", bentuk: "PG" },
+          { no: 27, materi: "Hijrah ke Habasyah", cp: "Peserta didik mampu memahami alasan kembalinya sebagian sahabat dari Habasyah ke Makkah.", tp: "Mengetahui berita yang memicu sebagian sahabat berniat kembali ke Makkah.", indikator: "Disajikan kisah keputusan sebagian sahabat kembali ke Makkah setelah menerima suatu kabar, siswa dapat menentukan isi berita yang memicu keputusan tersebut.", level: "C2", bentuk: "PG" },
+          { no: 28, materi: "Hijrah ke Habasyah", cp: "Peserta didik mampu memahami kepemimpinan rombongan hijrah ke Habasyah tahap kedua.", tp: "Mengenal tokoh pemimpin delegasi kaum Muhajirin tahap kedua di hadapan Raja Najasyi.", indikator: "Disajikan deskripsi rombongan hijrah tahap kedua yang dipimpin oleh sahabat yang fasih berbicara menghadapi utusan kafir Makkah, siswa dapat menentukan nama pemimpin rombongan tersebut.", level: "C1", bentuk: "PG" },
+          { no: 29, materi: "Utusan Kafir Makkah ke Habasyah", cp: "Peserta didik mampu memahami utusan kaum kafir yang menemui Raja Najasyi.", tp: "Mengenal dua utusan yang dikirim kafir Quraisy untuk membujuk Raja Najasyi agar menyerahkan kaum muslimin.", indikator: "Disajikan kisah pengiriman utusan oleh kaum kafir Makkah untuk menemui Raja Najasyi, siswa dapat menentukan nama kedua utusan tersebut.", level: "C1", bentuk: "PG" },
+          { no: 30, materi: "Waktu Hijrah ke Habasyah", cp: "Peserta didik mampu memahami tahun terjadinya hijrah tahap pertama ke Habasyah.", tp: "Mengetahui tahun kenabian berlangsungnya hijrah pertama ke Habasyah.", indikator: "Disajikan informasi mengenai tahapan hijrah kaum muslimin untuk mencari perlindungan, siswa dapat menentukan tahun kenabian terjadinya hijrah tahap pertama.", level: "C1", bentuk: "PG" },
+          { no: 31, materi: "Utusan Kafir Makkah", cp: "Peserta didik mampu memahami kedatangan utusan kafir Makkah kepada Raja Najasyi.", tp: "Menuliskan benda bawaan utusan kafir Makkah untuk melobi raja.", indikator: "Disajikan pernyataan tentang dua utusan kaum kafir Makkah yang berangkat menemui Raja Najasyi, siswa dapat menuliskan benda yang dibawa oleh utusan tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 32, materi: "Perlindungan di Habasyah", cp: "Peserta didik mampu memahami suasana perlindungan Raja Najasyi di Habasyah.", tp: "Menuliskan suasana perasaan kaum muslimin tinggal di Habasyah.", indikator: "Disajikan pernyataan mengenai penyambutan baik Raja Najasyi terhadap kaum muhajirin, siswa dapat menuliskan suasana perasaan kaum muslimin selama tinggal di sana.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 33, materi: "Kandungan Surah Al-Lahab", cp: "Peserta didik mampu memahami akhir nasib Abu Lahab berdasarkan Surah Al-Lahab.", tp: "Menuliskan bentuk siksaan neraka bagi Abu Lahab.", indikator: "Disajikan keterangan ayat mengenai harta dan pengaruh Abu Lahab yang tidak berguna baginya, siswa dapat menuliskan sifat api tempat ia dimasukkan.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 34, materi: "Akhir Hayat Abu Lahab", cp: "Peserta didik mampu memahami sebab wafatnya Abu Lahab pasca Perang Badar.", tp: "Menuliskan jenis penyakit yang diderita Abu Lahab menjelang wafatnya.", indikator: "Disajikan kisah ketidakhadiran Abu Lahab dalam Perang Badar akibat sakit parah setelah kekalahan kafir Quraisy, siswa dapat menuliskan jenis penyakit yang dideritanya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 35, materi: "Pemboikotan Bani Hasyim", cp: "Peserta didik mampu memahami awal tahun mulainya pemboikotan kaum Quraisy.", tp: "Menuliskan tahun kenabian dimulainya piagam pemboikotan.", indikator: "Disajikan kisah penulisan lembaran perjanjian pemboikotan oleh kaum Quraisy di Ka'bah, siswa dapat menuliskan tahun kenabian dimulainya peristiwa tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 36, materi: "Hijrah ke Habasyah", cp: "Peserta didik mampu memahami anggota keluarga yang ikut hijrah tahap pertama ke Habasyah.", tp: "Menuliskan nama istri Utsman bin Affan yang mendampingi hijrah ke Habasyah.", indikator: "Disajikan informasi mengenai hijrah kaum muslimin ke Habasyah tahap pertama yang diikuti Utsman bin Affan, siswa dapat menuliskan nama istri beliau yang mendampingi.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 37, materi: "Kandungan Surah An-Nahl Ayat 106", cp: "Peserta didik mampu memahami hukum bagi orang dipaksa kafir namun tetap beriman.", tp: "Menuliskan status hukum bagi orang yang dipaksa kafir namun hatinya tetap beriman.", indikator: "Disajikan penjelasan tentang isi kandungan Surah An-Nahl ayat 106 bagi orang yang mengalami paksaan namun hatinya tetap beriman, siswa dapat menuliskan status hukum perbuatannya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 38, materi: "Pembebasan Budak", cp: "Peserta didik mampu memahami jasa Abu Bakar As-Shiddiq terhadap pembebasan budak.", tp: "Menuliskan nama tokoh yang membeli dan memerdekakan Bilal bin Rabah.", indikator: "Disajikan kisah penyiksaan pemuka Islam awal termasuk Bilal bin Rabah yang kemudian dimerdekakan oleh seorang sahabat dermawan, siswa dapat menuliskan nama sahabat tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 39, materi: "Etika Perang dalam Islam", cp: "Peserta didik mampu memahami aturan etika perang dalam Islam yang diajarkan Rasulullah saw.", tp: "Menuliskan larangan merusak lingkungan saat melakukan peperangan.", indikator: "Disajikan pesan-pesan etika perang Rasulullah saw. yang melarang pembunuhan terhadap golongan tertentu, siswa dapat menuliskan bentuk larangan terhadap kelestarian tumbuhan.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 40, materi: "Perlengkapan Perang Rasulullah", cp: "Peserta didik mampu memahami kelengkapan perlengkapan perang Rasulullah saw.", tp: "Menuliskan nama pedang mulia milik Rasulullah saw.", indikator: "Disajikan catatan kepedulian Nabi terhadap benda-benda miliknya termasuk perisai Al-Fudul, siswa dapat menuliskan nama pedang mulia beliau.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 41, materi: "Strategi Dakwah Rasulullah saw.", cp: "Peserta didik mampu menjelaskan alasan peralihan dakwah dari sembunyi-sembunyi ke terbuka.", tp: "Menjelaskan latar belakang Nabi Muhammad saw. berdakwah secara sembunyi-sembunyi lalu beralih terbuka.", indikator: "Siswa dapat menjelaskan alasan Nabi Muhammad saw. melakukan dakwah secara sembunyi-sembunyi pada awal Islam serta latar belakang peralihannya secara terbuka berdasarkan perintah Allah Swt..", level: "C3", bentuk: "Uraian" },
+          { no: 42, materi: "Perjuangan Bilal bin Rabah", cp: "Peserta didik mampu menguraikan perjuangan dan hikmah keteguhan Bilal bin Rabah.", tp: "Menjelaskan kisah perjuangan Bilal bin Rabah dan hikmah yang dapat diambil.", indikator: "Siswa dapat menjelaskan bentuk penyiksaan yang dialami Bilal bin Rabah dalam mempertahankan keimanan serta menguraikan hikmah yang dapat diteladani darinya.", level: "C3", bentuk: "Uraian" },
+          { no: 43, materi: "Pemboikotan Bani Hasyim", cp: "Peserta didik mampu menjelaskan peristiwa dan isi pemboikotan kaum Quraisy.", tp: "Menjelaskan pengertian dan poin-poin isi pemboikotan kaum Quraisy terhadap Bani Hasyim dan Bani Abdul Mutalib.", indikator: "Siswa dapat menjelaskan maksud pemboikotan kaum Quraisy terhadap Bani Hasyim dan Bani Abdul Mutalib serta menyebutkan isi poin-poin perjanjian tersebut.", level: "C3", bentuk: "Uraian" },
+          { no: 44, materi: "Kasih Sayang Rasulullah saw.", cp: "Peserta didik mampu memberikan contoh manifestasi kasih sayang Rasulullah saw.", tp: "Menyebutkan contoh kasih sayang Nabi Muhammad saw. kepada sesama manusia, keluarga, dan sahabat.", indikator: "Siswa dapat menyebutkan tiga contoh bentuk manifestasi kasih sayang Nabi Muhammad saw. kepada keluarga, sahabat, dan sesama manusia.", level: "C2", bentuk: "Uraian" },
+          { no: 45, materi: "Kepedulian Lingkungan Rasulullah saw.", cp: "Peserta didik mampu menjelaskan kepedulian Nabi Muhammad saw. terhadap lingkungan dan makhluk hidup.", tp: "Menyebutkan contoh kepedulian Rasulullah saw. terhadap lingkungan (alam dan hewan).", indikator: "Siswa dapat menyebutkan tiga contoh bentuk kepedulian Nabi Muhammad saw. terhadap kelestarian lingkungan dan perlindungan terhadap binatang.", level: "C2", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 6. SEJARAH KEBUDAYAAN ISLAM (SKI) - KELAS VI (50 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "ski-6",
+        mapel: "Sejarah Kebudayaan Islam (SKI)",
+        kelas: "VI",
+        kelasLabel: "Kelas VI (Enam)",
+        icon: "fa-mosque",
+        gradient: "from-amber-600 to-yellow-600",
+        badgeBg: "bg-amber-100 text-amber-900",
+        total: 50, pg: 35, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Peran Wali Songo (Sunan Bonang)", cp: "Peserta didik mampu memahami peran Wali Songo (Sunan Bonang) dalam penyebaran Islam.", tp: "Mengidentifikasi nama asli Sunan Bonang.", indikator: "Disajikan informasi mengenai tokoh Wali Songo yang dikenal melalui pendekatan kebudayaan, siswa dapat menentukan nama asli Sunan Bonang.", level: "C1", bentuk: "PG" },
+          { no: 2, materi: "Karya Sastra Wali Songo", cp: "Peserta didik mampu memahami karya sastra peninggalan Wali Songo.", tp: "Mengetahui karya sastra peninggalan Sunan Bonang yang tersimpan di Universitas Leiden, Belanda.", indikator: "Disajikan keterangan tentang karya sastra peninggalan Sunan Bonang yang terkenal hingga sekarang, siswa dapat menentukan judul karya tersebut.", level: "C1", bentuk: "PG" },
+          { no: 3, materi: "Peran Sunan Gresik", cp: "Peserta didik mampu memahami peran Sunan Gresik di awal dakwah Islam di Jawa.", tp: "Mengenal nama asli dari Sunan Gresik.", indikator: "Disajikan deskripsi tentang tokoh yang datang dari luar Nusantara membimbing masyarakat dan dikenal sebagai Sunan Gresik, siswa dapat menentukan nama asli beliau.", level: "C1", bentuk: "PG" },
+          { no: 4, materi: "Silsilah Sunan Drajat", cp: "Peserta didik mampu memahami silsilah dan hubungan kekeluargaan Wali Songo.", tp: "Mengidentifikasi hubungan keluarga dan nama asli Sunan Drajat.", indikator: "Disajikan narasi hubungan kekeluargaan Wali Songo, siswa dapat menentukan nama asli Sunan Drajat yang merupakan adik dari Sunan Bonang.", level: "C1", bentuk: "PG" },
+          { no: 5, materi: "Peran Sunan Ampel", cp: "Peserta didik mampu memahami kiprah Sunan Ampel dalam pusat dakwah dan pendidikan.", tp: "Mengenal nama asli Sunan Ampel.", indikator: "Disajikan narasi perjuangan Wali Songo dalam membangun pusat dakwah dan pendidikan, siswa dapat menentukan nama asli Sunan Ampel.", level: "C1", bentuk: "PG" },
+          { no: 6, materi: "Metode Dakwah Sunan Gresik", cp: "Peserta didik mampu memahami pendekatan dakwah Sunan Gresik kepada masyarakat dan bangsawan.", tp: "Mengidentifikasi metode awal yang digunakan Sunan Gresik untuk menarik perhatian masyarakat dan bangsawan.", indikator: "Disajikan kisah pendekatan dakwah Sunan Gresik dalam membangun hubungan baik dengan masyarakat setempat, siswa dapat menentukan kegiatan awal yang beliau lakukan.", level: "C2", bentuk: "PG" },
+          { no: 7, materi: "Ajaran Sunan Drajat", cp: "Peserta didik mampu memahami ajaran kepedulian sosial oleh Sunan Drajat.", tp: "Mengenal ungkapan ajaran Sunan Drajat tentang kepedulian sosial.", indikator: "Disajikan penjelasan mengenai pembinaan akhlak masyarakat oleh Sunan Drajat melalui ungkapan bahasa Jawa, siswa dapat menentukan kelanjutan ungkapan ajaran tersebut.", level: "C2", bentuk: "PG" },
+          { no: 8, materi: "Julukan Sunan Gresik", cp: "Peserta didik mampu memahami julukan atau sebutan lain bagi Sunan Gresik.", tp: "Mengidentifikasi julukan yang melekat pada Sunan Gresik.", indikator: "Disajikan narasi pengaruh dan julukan bagi tokoh penyebar Islam, siswa dapat menentukan julukan yang melekat pada diri Sunan Gresik.", level: "C1", bentuk: "PG" },
+          { no: 9, materi: "Stratifikasi Sosial", cp: "Peserta didik mampu memahami perombakan sistem sosial stratifikasi masyarakat Hindu ke Islam oleh Sunan Gresik.", tp: "Mengenal sistem stratifikasi sosial yang tidak sejalan dengan nilai Islam.", indikator: "Disajikan narasi upaya Sunan Gresik mengenalkan persamaan derajat dan keadilan, siswa dapat menentukan sistem sosial masyarakat Hindu yang bertentangan dengan prinsip tersebut.", level: "C2", bentuk: "PG" },
+          { no: 10, materi: "Stratifikasi Sosial", cp: "Peserta didik mampu memahami lapisan masyarakat terbawah dalam sistem stratifikasi sosial lama.", tp: "Mengetahui golongan yang menempati lapisan paling rendah.", indikator: "Disajikan keterangan pembagian kelompok sosial masyarakat Hindu di Nusantara, siswa dapat menentukan golongan yang menempati lapisan paling rendah.", level: "C1", bentuk: "PG" },
+          { no: 11, materi: "Peninggalan Sejarah Sunan Gresik", cp: "Peserta didik mampu memahami peninggalan sejarah masjid kuno peninggalan Sunan Gresik.", tp: "Mengidentifikasi peninggalan masjid di Desa Pesucinan, Manyar.", indikator: "Disajikan deskripsi bangunan bersejarah tempat kegiatan keagamaan di suatu wilayah, siswa dapat menentukan nama peninggalan Sunan Gresik tersebut.", level: "C1", bentuk: "PG" },
+          { no: 12, materi: "Ajaran Sunan Drajat", cp: "Peserta didik mampu memahami ajaran welas asih Sunan Drajat melalui bahasa Jawa.", tp: "Mengenal makna ungkapan Sunan Drajat.", indikator: "Disajikan kisah ajaran Sunan Drajat mengenai kepedulian terhadap orang kesusahan, siswa dapat menentukan kelanjutan ungkapan peribahasa tersebut.", level: "C2", bentuk: "PG" },
+          { no: 13, materi: "Gelar Sunan Ampel", cp: "Peserta didik mampu memahami nama lain atau gelar bagi Sunan Ampel.", tp: "Mengetahui nama lain Sunan Ampel.", indikator: "Disajikan keterangan nama berbeda yang diberikan ketika lahir bagi anggota Wali Songo, siswa dapat menentukan nama lain Sunan Ampel.", level: "C1", bentuk: "PG" },
+          { no: 14, materi: "Falsafah Hidup Sunan Drajat", cp: "Peserta didik mampu memahami falsafah hidup menjaga hubungan sesama (Memangun resep tyasing sasono).", tp: "Mengetahui makna falsafah hidup Sunan Drajat berkaitan dengan perasaan orang lain.", indikator: "Disajikan narasi falsafah kehidupan untuk menjaga hubungan baik antarsesama agar tidak mementingkan diri sendiri, siswa dapat menentukan makna falsafah tersebut.", level: "C2", bentuk: "PG" },
+          { no: 15, materi: "Prinsip Dakwah Sunan Ampel", cp: "Peserta didik mampu memahami prinsip dakwah Sunan Ampel (Mau'izatul Hasanah wa Mujadalah Billati Hiya Ahsan).", tp: "Mengetahui prinsip dakwah santun dan penuh kebijaksanaan.", indikator: "Disajikan penjelasan cara penyampaian ajaran agama oleh Sunan Ampel yang mengutamakan santun, siswa dapat menentukan makna prinsip dakwah tersebut.", level: "C2", bentuk: "PG" },
+          { no: 16, materi: "Hubungan Ulama dan Penguasa", cp: "Peserta didik mampu memahami hubungan tokoh agama dan penguasa di masa Majapahit.", tp: "Mengetahui nama raja Majapahit yang meminta bantuan Sunan Ampel untuk memperbaiki moral bangsawan.", indikator: "Disajikan narasi hubungan antara tokoh agama dan penguasa Majapahit dalam menyelesaikan persoalan, siswa dapat menentukan nama raja tersebut.", level: "C1", bentuk: "PG" },
+          { no: 17, materi: "Metode Dakwah Sunan Ampel", cp: "Peserta didik mampu memahami metode kreatif dakwah Sunan Ampel di Surabaya.", tp: "Mengidentifikasi benda syarat masuk Islam yang diberikan Sunan Ampel.", indikator: "Disajikan kisah pendekatan kreatif Sunan Ampel memberikan benda bersyarat dua kalimat syahadat di Surabaya, siswa dapat menentukan jenis benda tersebut.", level: "C2", bentuk: "PG" },
+          { no: 18, materi: "Pusat Dakwah Sunan Ampel", cp: "Peserta didik mampu memahami sejarah asal-usul nama daerah pusat dakwah.", tp: "Mengetahui wilayah di Surabaya yang dihadiahkan oleh Prabu Brawijaya kepada Sunan Ampel.", indikator: "Disajikan narasi dukungan penguasa berupa tanah di Surabaya untuk pusat kegiatan keagamaan, siswa dapat menentukan nama wilayah tersebut.", level: "C1", bentuk: "PG" },
+          { no: 19, materi: "Pengikut Sunan Ampel", cp: "Peserta didik mampu memahami tokoh-tokoh masyarakat yang masuk Islam melalui Sunan Ampel.", tp: "Mengidentifikasi dua tokoh masyarakat pengikut Sunan Ampel dari Kembang Kuning.", indikator: "Disajikan informasi keberhasilan dakwah Sunan Ampel yang menarik tokoh berpengaruh di Kembang Kuning, siswa dapat menentukan nama kedua tokoh tersebut.", level: "C1", bentuk: "PG" },
+          { no: 20, materi: "Sejarah Dakwah Walisongo (Peran dan Ajaran Sunan Ampel)", cp: "Peserta didik mampu memahami sejarah perkembangan Islam di Nusantara melalui peran para ulama penyebar Islam (Walisongo) serta meneladani nilai-nilai dakwahnya dalam kehidupan sehari-hari.", tp: "Peserta didik dapat mengidentifikasi ajaran dakwah sosial dan moral Sunan Ampel dalam membina masyarakat dengan tepat.", indikator: "Disajikan sebuah deskripsi mengenai pendekatan dakwah Sunan Ampel yang menekankan pada perbaikan moral dan larangan perbuatan tercela dalam masyarakat, peserta didik dapat menentukan nama istilah ajaran tersebut dengan benar.", level: "C2", bentuk: "PG" },
+          { no: 21, materi: "Media Dakwah Sunan Bonang", cp: "Peserta didik mampu memahami kesenian media dakwah Sunan Bonang.", tp: "Mengidentifikasi alat musik tradisional yang menjadi simbol dakwah Sunan Bonang.", indikator: "Disajikan keterangan pemanfaatan kesenian dan alat musik sebagai sarana menarik perhatian masyarakat dalam dakwah Sunan Bonang, siswa dapat menentukan nama alat musik tersebut.", level: "C1", bentuk: "PG" },
+          { no: 22, materi: "Kesejahteraan Masyarakat", cp: "Peserta didik mampu memahami upaya peningkatan kesejahteraan masyarakat oleh Sunan Gresik.", tp: "Mengetahui bentuk upaya ekonomi pertanian Sunan Gresik.", indikator: "Disajikan narasi kepedulian Sunan Gresik membantu masyarakat memenuhi kebutuhan hidup dan meningkatkan hasil pertanian, siswa dapat menentukan salah satu usahanya.", level: "C2", bentuk: "PG" },
+          { no: 23, materi: "Lembaga Pendidikan Islam", cp: "Peserta didik mampu memahami pendirian lembaga pendidikan Islam oleh Sunan Ampel.", tp: "Mengenal jenis lembaga pendidikan Islam untuk menyiapkan calon ulama dan mubalig.", indikator: "Disajikan narasi pentingnya pendidikan dalam membentuk generasi berilmu oleh Sunan Ampel, siswa dapat menentukan nama lembaga pendidikan yang didirikannya.", level: "C1", bentuk: "PG" },
+          { no: 24, materi: "Perjalanan Dakwah Sunan Bonang", cp: "Peserta didik mampu memahami penugasan dakwah Sunan Bonang oleh ayahnya.", tp: "Mengetahui daerah tujuan tugas dakwah Sunan Bonang.", indikator: "Disajikan kisah perjalanan dakwah para wali berdasarkan arahan keluarga, siswa dapat menentukan wilayah penugasan Sunan Bonang.", level: "C1", bentuk: "PG" },
+          { no: 25, materi: "Sikap Toleransi Wali Songo", cp: "Peserta didik mampu memahami sikap toleransi Sunan Gresik terhadap penguasa Hindu.", tp: "Mengidentifikasi bentuk sikap terpuji Sunan Gresik saat gagal mengajak Prabu Brawijaya memeluk Islam.", indikator: "Disajikan narasi kegagalan Sunan Gresik mengislamkan penguasa secara paksa, siswa dapat menentukan sikap terpuji yang beliau tunjukkan.", level: "C3", bentuk: "PG" },
+          { no: 26, materi: "Kedudukan Sunan Gresik", cp: "Peserta didik mampu memahami kedudukan Sunan Gresik sebagai pelopor awal Wali Songo.", tp: "Mengetahui posisi golongan Sunan Gresik dalam sejarah Wali Songo.", indikator: "Disajikan informasi mengenai kelompok penyebar Islam Wali Songo, siswa dapat menentukan golongan urutan kedudukan Sunan Gresik.", level: "C1", bentuk: "PG" },
+          { no: 27, materi: "Kebijaksanaan Wali Songo", cp: "Peserta didik mampu memahami cara Sunan Gresik menghindari konflik dengan penguasa.", tp: "Mengetahui alasan pencegahan konflik antara rakyat dan raja Majapahit.", indikator: "Disajikan narasi cara Sunan Gresik menyikapi perbedaan pandangan agar tidak menimbulkan perpecahan dengan Raja Brawijaya, siswa dapat menentukan latar belakang potensial konflik tersebut.", level: "C2", bentuk: "PG" },
+          { no: 28, materi: "Dakwah Sosial Sunan Gresik", cp: "Peserta didik mampu memahami perhatian Sunan Gresik terhadap peningkatan taraf hidup masyarakat.", tp: "Mengetahui fokus dakwah sosial ekonomi Sunan Gresik selain masalah keagamaan.", indikator: "Disajikan keterangan bahwa dakwah Sunan Gresik turut menyentuh kebutuhan sosial dan peningkatan taraf hidup, siswa dapat menentukan aspek yang ditingkatkan.", level: "C2", bentuk: "PG" },
+          { no: 29, materi: "Kewajiban Dakwah", cp: "Peserta didik mampu memahami kewajiban berdakwah bagi setiap muslim menurut pandangan Sunan Ampel.", tp: "Mengetahui pihak yang berkewajiban menyampaikan kebaikan.", indikator: "Disajikan penjelasan peran setiap orang dalam menyampaikan kebaikan melalui ucapan maupun perbuatan menurut Sunan Ampel, siswa dapat menentukan subjek yang memikul kewajiban tersebut.", level: "C2", bentuk: "PG" },
+          { no: 30, materi: "Fungsi Masjid Kuno", cp: "Peserta didik mampu memahami fungsi ganda masjid pada masa awal penyebaran Islam di Jawa.", tp: "Mengetahui fungsi tambahan masjid selain tempat salat.", indikator: "Disajikan narasi tempat ibadah yang memiliki fungsi luas sebagai pusat perkumpulan dakwah yang dirintis Raden Rahmat, siswa dapat menentukan fungsi utamanya.", level: "C1", bentuk: "PG" },
+          { no: 31, materi: "Keturunan Sunan Ampel", cp: "Peserta didik mampu memahami silsilah keturunan Sunan Ampel yang melanjutkan dakwah (Sunan Drajat).", tp: "Mengidentifikasi putra Sunan Ampel yang meneruskan perjuangan di berbagai wilayah.", indikator: "Disajikan informasi peran keluarga Sunan Ampel dalam melanjutkan estafet dakwah, siswa dapat menentukan nama salah satu putranya.", level: "C1", bentuk: "PG" },
+          { no: 32, materi: "Falsafah Moh Madat", cp: "Peserta didik mampu memahami rincian ajaran larangan Moh Madat.", tp: "Mengenal arti salah satu butir larangan dalam falsafah Moh Madat.", indikator: "Disajikan keterangan larangan perbuatan merusak akhlak oleh Sunan Ampel terkait istilah Moh Madat, siswa dapat menentukan arti istilah tersebut.", level: "C1", bentuk: "PG" },
+          { no: 33, materi: "Perkembangan Literasi Islam", cp: "Peserta didik mampu memahami penciptaan huruf Pegon oleh tokoh Wali Songo.", tp: "Mengetahui tokoh pencipta penggunaan huruf Arab untuk menuliskan bahasa daerah.", indikator: "Disajikan narasi kemunculan karya tulis dan penggunaan huruf Arab berpadu bahasa lokal agar mudah dipelajari masyarakat, siswa dapat menentukan tokoh penciptanya.", level: "C1", bentuk: "PG" },
+          { no: 34, materi: "Kisah Masa Kecil Sunan Giri", cp: "Peserta didik mampu menganalisis peran Wali Sanga dalam mengembangkan Islam di Indonesia sebagai inspirasi dalam menerapkan semangat juang, sikap religius, ketekunan, serta kearifan lokal pada kehidupan masa kini.", tp: "Peserta didik mampu menjelaskan riwayat hidup (biografi), silsilah, serta perjalanan dakwah Sunan Giri dalam menyebarkan agama Islam di Nusantara dengan tepat.", indikator: "Disajikan narasi singkat mengenai kisah masa kecil para wali, peserta didik dapat mengidentifikasi nama dua orang awak kapal yang menemukan bayi Sunan Giri di laut dengan benar.", level: "C1", bentuk: "PG" },
+          { no: 35, materi: "Pusat Pemerintahan Sunan Giri", cp: "Peserta didik mampu memahami pusat pemerintahan yang didirikan Sunan Giri.", tp: "Mengenal nama pusat kekuasaan politik dan pemerintahan Sunan Giri.", indikator: "Disajikan keterangan tentang perluasan pengaruh Sunan Giri dalam bidang politik dan pemerintahan, siswa dapat menentukan nama pusat pemerintahannya.", level: "C1", bentuk: "PG" },
+          { no: 36, materi: "Julukan Sunan Gresik", cp: "Peserta didik mampu memahami julukan Sunan Gresik.", tp: "Menuliskan julukan populer yang melekat pada Sunan Gresik dalam sejarah.", indikator: "Disajikan pernyataan tentang wali asal Gresik yang dikenal melalui pendekatan sosial kemasyarakatan, siswa dapat menuliskan julukan beliau.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 37, materi: "Masjid Peninggalan Sunan Bonang", cp: "Peserta didik mampu memahami nama awal bangunan masjid peninggalan Sunan Bonang.", tp: "Menuliskan sebutan awal masjid peninggalan Sunan Bonang oleh masyarakat sekitar.", indikator: "Disajikan informasi bangunan masjid kuno bukti perkembangan Islam, siswa dapat menuliskan nama awal bangunan tersebut.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 38, materi: "Lembaga Pendidikan Pesantren", cp: "Peserta didik mampu memahami wadah pembinaan calon mubalig oleh Sunan Gresik.", tp: "Menuliskan sebutan kader yang dibina di pesantren Sunan Gresik.", indikator: "Disajikan narasi pengembangan lembaga pendidikan tradisional oleh Sunan Gresik untuk membimbing santri, siswa dapat menuliskan sebutan lulusan kadernya.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 39, materi: "Nama Asli Sunan Ampel", cp: "Peserta didik mampu memahami nama asli Sayyid Ali Rahmatullah.", tp: "Menuliskan nama penisbatan wilayah bagi Rahmatullah.", indikator: "Disajikan informasi variasi nama asli para wali dalam sejarah, siswa dapat menuliskan nama sebutan wilayah bagi Sayyid Ali Rahmatullah.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 40, materi: "Falsafah Moh Limo", cp: "Peserta didik mampu memahami arti istilah Moh Madat.", tp: "Melalui pemahaman teks informasi tentang ungkapan tradisional Jawa, peserta didik dapat mengidentifikasi dan menjelaskan makna dari salah satu falsafah Moh Limo dengan tepat.", indikator: "Disajikan petunjuk penggunaan ungkapan pesan moral falsafah pencegahan keburukan, siswa dapat menuliskan arti dari Moh Madat.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 41, materi: "Falsafah Moh Ngombe", cp: "Peserta didik mampu memahami arti istilah Moh Ngombe.", tp: "Menuliskan arti larangan mengonsumsi minuman keras dalam tradisi dakwah wali.", indikator: "Disajikan petunjuk penggunaan istilah sederhana penolakan perbuatan terlarang, siswa dapat menuliskan arti dari Moh Ngombe.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 42, materi: "Biografi Sunan Giri", cp: "Peserta didik mampu memahami nama kecil Sunan Giri.", tp: "Menuliskan julukan atau nama masa kecil Sunan Giri.", indikator: "Disajikan narasi peran penting Sunan Giri dalam bidang pendidikan dan dakwah, siswa dapat menuliskan nama kecil beliau.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 43, materi: "Kisah Penemuan Sunan Giri", cp: "Peserta didik mampu memahami nama yang diberikan Nyi Ageng Pinatih kepada bayi Sunan Giri.", tp: "Menuliskan nama temuan bayi di Selat Bali oleh Nyi Ageng Pinatih.", indikator: "Disajikan kisah bayi Sunan Giri yang dibuang ke laut lalu ditemukan oleh awak kapal dan diserahkan kepada Nyi Ageng Pinatih, siswa dapat menuliskan nama yang diberikan.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 44, materi: "Peribahasa Sunan Drajat", cp: "Peserta didik mampu memahami kelanjutan ungkapan peribahasa Jawa Sunan Drajat.", tp: "Menuliskan kata pelengkap ungkapan dalam filosofi yang diajarkan oleh Sunan Drajat.", indikator: "Disajikan penggalan ungkapan peribahasa Jawa tentang kepedulian sosial dan tolong-menolong, siswa dapat menuliskan kata kelanjutan peribahasa tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 45, materi: "Karakter Sosial Sunan Drajat", cp: "Peserta didik mampu memahami kelompok sasaran kepedulian sosial Sunan Drajat.", tp: "Menuliskan golongan yang menjadi fokus utama jiwa sosial tinggi Sunan Drajat.", indikator: "Disajikan narasi kepedulian besar Sunan Drajat terhadap penderitaan sesama dan kaum yang membutuhkan, siswa dapat menuliskan sasaran utama kelompok masyarakat tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 46, materi: "Falsafah Moh Limo", cp: "Peserta didik mampu menjelaskan poin-poin ajaran falsafah Moh Limo.", tp: "Menyebutkan seluruh isi poin larangan dalam falsafah Moh Limo.", indikator: "Siswa dapat menyebutkan dan menjelaskan secara lengkap lima poin larangan dalam falsafah Moh Limo.", level: "C2", bentuk: "Uraian" },
+          { no: 47, materi: "Falsafah Hidup Wali Songo", cp: "Peserta didik mampu menjelaskan makna falsafah Heneng-Hening-Henung.", tp: "Menguraikan makna pengendalian diri melalui falsafah Heneng-Hening-Henung.", indikator: "Siswa dapat menjelaskan arti dari setiap kata dalam falsafah Heneng-Hening-Henung sebagai pedoman mencapai ketenangan dan kebijaksanaan.", level: "C3", bentuk: "Uraian" },
+          { no: 48, materi: "Metode Dakwah Sunan Bonang", cp: "Peserta didik mampu menjelaskan metode dakwah seni dan budaya Sunan Bonang.", tp: "Menguraikan cara atau metode Sunan Bonang memanfaatkan kesenian dalam berdakwah.", indikator: "Siswa dapat menjelaskan bagaimana Sunan Bonang memanfaatkan kesenian alat musik gamelan/bonang serta tembang/suluk untuk menarik masyarakat masuk Islam.", level: "C3", bentuk: "Uraian" },
+          { no: 49, materi: "Keteladanan Sunan Gresik", cp: "Peserta didik mampu menyebutkan nilai-nilai teladan dari Sunan Gresik.", tp: "Menuliskan nilai positif teladan kepribadian Sunan Gresik dalam kehidupan masyarakat.", indikator: "Siswa dapat menyebutkan minimal tiga nilai positif teladan dari Sunan Gresik.", level: "C2", bentuk: "Uraian" },
+          { no: 50, materi: "Sejarah Kelahiran Sunan Giri", cp: "Peserta didik mampu menjelaskan alasan pembuangan bayi Sunan Giri.", tp: "Menguraikan latar belakang sejarah pembuangan bayi Sunan Giri ke laut berdasarkan kisah legenda.", indikator: "Siswa dapat menjelaskan alasan mengapa bayi Sunan Giri terpaksa dibuang oleh keluarganya akibat hasutan dan ketakutan penguasa Blambangan terhadap wabah penyakit.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 7. BAHASA ARAB - KELAS III (30 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "arab-3",
+        mapel: "Bahasa Arab",
+        kelas: "III",
+        kelasLabel: "Kelas III (Tiga)",
+        icon: "fa-language",
+        gradient: "from-teal-500 to-cyan-600",
+        badgeBg: "bg-teal-100 text-teal-800",
+        total: 30, pg: 15, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Teks Bacaan (Penyakit)", cp: "Peserta didik mampu memahami teks bacaan bahasa Arab tentang kesehatan dan anggota tubuh.", tp: "Memahami arti kosa kata tentang penyakit dalam teks.", indikator: "Disajikan teks bacaan bahasa Arab tentang seseorang yang sakit, siswa dapat menentukan arti kosa kata tertentu yang terdapat pada teks tersebut.", level: "C2", bentuk: "PG" },
+          { no: 2, materi: "Kosa Kata Penyakit", cp: "Peserta didik mampu menguasai kosa kata bahasa Arab terkait nama-nama penyakit.", tp: "Menerjemahkan kosa kata penyakit dari bahasa Indonesia ke bahasa Arab.", indikator: "Disajikan ungkapan penyakit dalam bahasa Indonesia, siswa dapat menentukan padanan kosa kata bahasa Arabnya.", level: "C1", bentuk: "PG" },
+          { no: 3, materi: "Teks Bacaan (Keluhan Sakit)", cp: "Peserta didik mampu memahami teks bacaan bahasa Arab tentang keluhan sakit.", tp: "Mengartikan frasa keluhan sakit dalam teks.", indikator: "Disajikan penggalan kalimat dari teks bacaan, siswa dapat menentukan arti dari frasa keluhan sakit yang digarisbawahi.", level: "C2", bentuk: "PG" },
+          { no: 4, materi: "Qawaid / Kosa Kata", cp: "Peserta didik mampu menganalisis bentuk kata atau asal kata dalam bahasa Arab.", tp: "Menentukan arti kata dasar dari keluhan sakit.", indikator: "Disajikan kosa kata tertentu dari teks bacaan, siswa dapat menentukan arti dasar kata tersebut dengan tepat.", level: "C2", bentuk: "PG" },
+          { no: 5, materi: "Teks Bacaan & Anggota Tubuh", cp: "Peserta didik mampu memahami teks bacaan bahasa Arab tentang bagian tubuh yang sakit.", tp: "Mengartikan frasa bagian tubuh yang sakit.", indikator: "Disajikan kalimat berisi keluhan sakit pada bagian tubuh tertentu, siswa dapat menentukan arti frasa tersebut.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Kosa Kata Harian (Fi'il)", cp: "Peserta didik mampu menguasai kosa kata sehari-hari dalam bahasa Arab.", tp: "Mengartikan kata kerja sehari-hari.", indikator: "Disajikan sebuah kosa kata kata kerja harian, siswa dapat menentukan arti bahasa Indonesia yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 7, materi: "Kosa Kata Nama Tempat", cp: "Peserta didik mampu menguasai kosa kata nama tempat umum.", tp: "Menerjemahkan nama tempat umum ke dalam bahasa Arab.", indikator: "Disajikan nama tempat umum dalam bahasa Indonesia, siswa dapat menentukan padanan bahasa Arabnya.", level: "C1", bentuk: "PG" },
+          { no: 8, materi: "Kosa Kata Frasa", cp: "Peserta didik mampu menguasai kosa kata frasa umum dalam pembelajaran.", tp: "Mengartikan frasa terkait aktivitas menuntut ilmu.", indikator: "Disajikan frasa bahasa Arab tertentu, siswa dapat menentukan arti bahasa Indonesia yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 9, materi: "Kosa Kata Hewan (حيوانات)", cp: "Peserta didik mampu menguasai kosa kata nama-nama hewan.", tp: "Menerjemahkan nama hewan dari bahasa Arab ke bahasa Indonesia.", indikator: "Disajikan kosa kata nama hewan dalam bahasa Arab, siswa dapat menentukan terjemahannya ke dalam bahasa Indonesia.", level: "C1", bentuk: "PG" },
+          { no: 10, materi: "Kosa Kata Mata Pelajaran", cp: "Peserta didik mampu menguasai kosa kata nama-nama mata pelajaran di sekolah.", tp: "Mengenal nama mata pelajaran dalam bahasa Arab.", indikator: "Disajikan istilah nama mata pelajaran dalam bahasa Arab, siswa dapat menentukan padanannya dalam bahasa Indonesia.", level: "C1", bentuk: "PG" },
+          { no: 11, materi: "Ungkapan dan Seruan", cp: "Peserta didik mampu menguasai ungkapan sehari-hari atau seruan ibadah.", tp: "Mengartikan kalimat seruan dalam kegiatan sehari-hari/ibadah.", indikator: "Disajikan kalimat seruan dalam bahasa Arab, siswa dapat menentukan arti bahasa Indonesia yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 12, materi: "Kosa Kata Hewan", cp: "Peserta didik mampu menguasai kosa kata nama-nama serangga atau hewan kecil.", tp: "Menerjemahkan nama hewan kecil ke dalam bahasa Arab.", indikator: "Disajikan nama hewan tertentu dalam bahasa Indonesia, siswa dapat menentukan kosa kata bahasa Arabnya.", level: "C1", bentuk: "PG" },
+          { no: 13, materi: "Ungkapan Sehari-hari", cp: "Peserta didik mampu menguasai ungkapan persetujuan dalam bahasa Arab.", tp: "Mengartikan ungkapan persetujuan.", indikator: "Disajikan kosa kata ungkapan persetujuan dalam bahasa Arab, siswa dapat menentukan arti bahasa Indonesianya.", level: "C1", bentuk: "PG" },
+          { no: 14, materi: "Kosa Kata Hewan", cp: "Peserta didik mampu menguasai kosa kata nama hewan peliharaan.", tp: "Menerjemahkan hewan peliharaan ke dalam bahasa Arab.", indikator: "Disajikan nama hewan dalam bahasa Indonesia, siswa dapat menentukan istilah bahasa Arabnya.", level: "C1", bentuk: "PG" },
+          { no: 15, materi: "Kosa Kata Mata Pelajaran", cp: "Peserta didik mampu menguasai kosa kata nama bidang studi atau kegiatan belajar.", tp: "Mengartikan frasa nama mata pelajaran.", indikator: "Disajikan frasa bahasa Arab terkait bidang studi, siswa dapat menentukan arti bahasa Indonesianya.", level: "C1", bentuk: "PG" },
+          { no: 16, materi: "Kosa Kata Penyakit", cp: "Peserta didik mampu menguasai kosa kata penyakit tertentu.", tp: "Menyebutkan bahasa Arab dari kata gangguan kesehatan tertentu.", indikator: "Disajikan pertanyaan tentang terjemahan bahasa Arab dari suatu kondisi kesehatan, siswa dapat menuliskan kosa kata bahasa Arabnya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 17, materi: "Kosakata Berdasarkan Gambar", cp: "Peserta didik mampu mengidentifikasi gambar petunjuk soal.", tp: "Menuliskan bahasa Arab berdasarkan gambar petunjuk nomor 1.", indikator: "Disajikan gambar petunjuk nomor 1 pada soal, siswa dapat menuliskan kosa kata bahasa Arab yang sesuai dengan gambar tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 18, materi: "Kosakata Berdasarkan Gambar", cp: "Peserta didik mampu mengidentifikasi gambar petunjuk soal (buku pelajaran).", tp: "Menuliskan bahasa Arab berdasarkan gambar petunjuk nomor 3.", indikator: "Disajikan gambar petunjuk nomor 3 pada soal, siswa dapat menuliskan kosa kata bahasa Arab yang sesuai dengan gambar tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 19, materi: "Kosakata Berdasarkan Gambar", cp: "Peserta didik mampu mengidentifikasi gambar petunjuk soal (hewan).", tp: "Menuliskan bahasa Arab berdasarkan gambar petunjuk nomor 2.", indikator: "Disajikan gambar petunjuk nomor 2 pada soal, siswa dapat menuliskan kosa kata bahasa Arab yang sesuai dengan gambar tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 20, materi: "Ungkapan Keadaan", cp: "Peserta didik mampu menguasai ungkapan keadaan diri.", tp: "Menuliskan bahasa Arab dari ungkapan keadaan fisik tertentu.", indikator: "Disajikan ungkapan keadaan fisik dalam bahasa Indonesia, siswa dapat menuliskan bahasa Arabnya dengan tepat.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 21, materi: "Kosakata Berdasarkan Gambar", cp: "Peserta didik mampu mengidentifikasi gambar petunjuk soal (hewan liar/reptil).", tp: "Menuliskan bahasa Arab berdasarkan gambar petunjuk nomor 4.", indikator: "Disajikan gambar petunjuk nomor 4 pada soal, siswa dapat menuliskan kosa kata bahasa Arab yang sesuai dengan gambar tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 22, materi: "Kosa Kata Mata Pelajaran", cp: "Peserta didik mampu menguasai penamaan identitas mata pelajaran.", tp: "Menuliskan bahasa Arab dari frasa nama mata pelajaran.", indikator: "Disajikan frasa nama mata pelajaran dalam bahasa Indonesia, siswa dapat menuliskan padanan bahasa Arabnya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 23, materi: "Kosa Kata Mata Pelajaran / Keagamaan", cp: "Peserta didik mampu menguasai terjemahan istilah bidang agama di madrasah.", tp: "Mengartikan frasa nama mata pelajaran keagamaan.", indikator: "Disajikan istilah mata pelajaran agama dalam bahasa Arab, siswa dapat menuliskan arti bahasa Indonesianya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 24, materi: "Kosakata Berdasarkan Gambar", cp: "Peserta didik mampu mengidentifikasi gambar petunjuk soal (hewan air).", tp: "Menuliskan bahasa Arab berdasarkan gambar petunjuk nomor 5.", indikator: "Disajikan gambar petunjuk nomor 5 pada soal, siswa dapat menuliskan kosa kata bahasa Arab yang sesuai dengan gambar tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 25, materi: "Kosa Kata Penyakit", cp: "Peserta didik mampu menguasai kosa kata nama penyakit.", tp: "Mengartikan kosa kata nama penyakit ke dalam bahasa Indonesia.", indikator: "Disajikan kosa kata nama penyakit dalam bahasa Arab, siswa dapat menuliskan arti bahasa Indonesianya.", level: "C1", bentuk: "Isian Singkat" },
+          { no: 26, materi: "Kosa Kata Penyakit", cp: "Peserta didik mampu menguasai kosa kata ragam penyakit.", tp: "Menyebutkan nama-nama penyakit dalam bahasa Arab.", indikator: "Disajikan perintah tertulis, siswa dapat menyebutkan sejumlah nama penyakit menggunakan bahasa Arab.", level: "C2", bentuk: "Uraian" },
+          { no: 27, materi: "Kosa Kata Mata Pelajaran", cp: "Peserta didik mampu menguasai kosa kata nama mata pelajaran di sekolah.", tp: "Menyebutkan nama-nama mata pelajaran dalam bahasa Arab.", indikator: "Disajikan perintah tertulis, siswa dapat menyebutkan minimal sejumlah mata pelajaran menggunakan bahasa Arab.", level: "C2", bentuk: "Uraian" },
+          { no: 28, materi: "Kalimat Sederhana (Isim Isyarah)", cp: "Peserta didik mampu menerjemahkan kalimat sederhana penunjuk benda.", tp: "Mengubah kalimat penunjuk benda ke dalam bahasa Arab.", indikator: "Disajikan kalimat pernyataan sederhana dalam bahasa Indonesia, siswa dapat mengubahnya ke dalam kalimat bahasa Arab yang tepat.", level: "C3", bentuk: "Uraian" },
+          { no: 29, materi: "Kosa Kata Nama Tempat", cp: "Peserta didik mampu menerjemahkan frasa nama tempat umum.", tp: "Mengubah frasa nama tempat umum ke dalam bahasa Arab.", indikator: "Disajikan frasa nama tempat dalam bahasa Indonesia, siswa dapat mengubah dan menuliskan bentuk bahasa Arabnya.", level: "C2", bentuk: "Uraian" },
+          { no: 30, materi: "Terjemahan Kalimat", cp: "Peserta didik mampu menerjemahkan kalimat bahasa Arab menggunakan kata tunjuk.", tp: "Menerjemahkan kalimat bahasa Arab ke dalam bahasa Indonesia.", indikator: "Disajikan kalimat lengkap menggunakan kata tunjuk dalam bahasa Arab, siswa dapat menerjemahkannya ke dalam bahasa Indonesia dengan benar.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 8. BAHASA ARAB - KELAS IV (35 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "arab-4",
+        mapel: "Bahasa Arab",
+        kelas: "IV",
+        kelasLabel: "Kelas IV (Empat)",
+        icon: "fa-comments",
+        gradient: "from-indigo-500 to-blue-600",
+        badgeBg: "bg-indigo-100 text-indigo-800",
+        total: 35, pg: 20, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Kosa Kata Alamat & Tempat", cp: "Peserta didik mampu memahami kosa kata tentang alamat dan tempat tinggal.", tp: "Mengartikan kosa kata nama jalan atau tempat dalam kalimat.", indikator: "Disajikan kalimat bahasa Arab tentang alamat rumah, siswa dapat menentukan arti dari kosa kata yang digarisbawahi.", level: "C2", bentuk: "PG" },
+          { no: 2, materi: "Kosa Kata Keterangan Waktu", cp: "Peserta didik mampu menguasai kosa kata keterangan waktu.", tp: "Mengartikan keterangan waktu dalam teks.", indikator: "Disajikan kalimat bahasa Arab, siswa dapat menentukan arti dari ungkapan keterangan waktu yang terdapat pada kalimat tersebut.", level: "C1", bentuk: "PG" },
+          { no: 3, materi: "Nama Lembaga Pendidikan", cp: "Peserta didik mampu memahami kosa kata nama lembaga pendidikan.", tp: "Mengartikan istilah jenis sekolah.", indikator: "Disajikan kalimat pengenal identitas, siswa dapat menentukan terjemahan yang tepat dari istilah lembaga pendidikan dasar.", level: "C1", bentuk: "PG" },
+          { no: 4, materi: "Keterangan Waktu", cp: "Peserta didik mampu memahami kosa kata keterangan waktu/durasi.", tp: "Mengartikan frasa keterangan waktu.", indikator: "Disajikan penggalan kalimat bahasa Arab, siswa dapat menentukan arti dari frasa keterangan waktu yang dimaksud.", level: "C2", bentuk: "PG" },
+          { no: 5, materi: "Kosa Kata Sosial", cp: "Peserta didik mampu memahami kosa kata interaksi sosial dan akhlak.", tp: "Mengartikan frasa perlakuan atau penjamuan yang baik.", indikator: "Disajikan kalimat interaksi sosial, siswa dapat menentukan arti dari ungkapan jamuan atau pelayanan yang baik.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Kosa Kata Aktivitas", cp: "Peserta didik mampu memahami kosa kata aktivitas dan hari libur.", tp: "Mengartikan kata waktu libur.", indikator: "Disajikan kalimat larangan atau anjuran terkait aktivitas sekolah, siswa dapat menentukan arti kosa kata libur.", level: "C1", bentuk: "PG" },
+          { no: 7, materi: "Sarana Transportasi & Tempat", cp: "Peserta didik mampu memahami kosa kata sarana transportasi dan tempat umum.", tp: "Mengartikan nama tempat pemberhentian transportasi.", indikator: "Disajikan kalimat tentang musafir di tempat umum, siswa dapat menentukan arti dari stasiun kereta api.", level: "C1", bentuk: "PG" },
+          { no: 8, materi: "Ungkapan Perjalanan", cp: "Peserta didik mampu memahami ungkapan perjalanan dan keselamatan.", tp: "Mengartikan frasa ungkapan keselamatan perjalanan.", indikator: "Disajikan kalimat cerita perjalanan anggota keluarga, siswa dapat menentukan arti ungkapan keselamatan.", level: "C2", bentuk: "PG" },
+          { no: 9, materi: "Geografi & Wilayah", cp: "Peserta didik mampu menguasai geografi wilayah dalam bahasa Arab.", tp: "Mengetahui letak wilayah atau pulau di Indonesia.", indikator: "Disajikan kalimat deskripsi wilayah di Indonesia, siswa dapat menentukan padanan wilayah administrasi tersebut.", level: "C1", bentuk: "PG" },
+          { no: 10, materi: "Waktu dan Jam", cp: "Peserta didik mampu memahami penulisan waktu/jam dalam bahasa Arab.", tp: "Mengartikan penunjukan waktu tertentu.", indikator: "Disajikan kalimat penanda waktu, siswa dapat menentukan arti jam yang dimaksud dalam kalimat.", level: "C1", bentuk: "PG" },
+          { no: 11, materi: "Literatur & Bacaan", cp: "Peserta didik mampu memahami jenis bacaan atau literatur dalam bahasa Arab.", tp: "Mengartikan jenis karya sastra pendek.", indikator: "Disajikan kalimat aktivitas membaca di perpustakaan, siswa dapat menentukan arti dari bacaan cerpen.", level: "C1", bentuk: "PG" },
+          { no: 12, materi: "Kata Tunjuk & Sifat", cp: "Peserta didik mampu memahami kata tunjuk dan sifat tempat.", tp: "Mengartikan frasa penunjuk tempat.", indikator: "Disajikan kalimat pujian terhadap suatu tempat, siswa dapat menentukan arti dari frasa kata tunjuk tempat tersebut.", level: "C2", bentuk: "PG" },
+          { no: 13, materi: "Tingkatan Kelas", cp: "Peserta didik mampu memahami tingkatan kelas di madrasah.", tp: "Mengartikan tingkatan kelas atau level.", indikator: "Disajikan kalimat keterangan posisi atau kelas keluarga, siswa dapat menentukan terjemahan tingkat kelas yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 14, materi: "Lembaga Pendidikan", cp: "Peserta didik mampu memahami nama lembaga pendidikan anak usia dini.", tp: "Mengartikan lembaga pendidikan pra-sekolah.", indikator: "Disajikan kalimat riwayat pendidikan seseorang, siswa dapat menentukan arti dari taman kanak-kanak.", level: "C1", bentuk: "PG" },
+          { no: 15, materi: "Profesi dan Sifat", cp: "Peserta didik mampu menguasai kosa kata profesi dan sifatnya.", tp: "Mengartikan profesi disertai sifatnya.", indikator: "Disajikan kalimat aktivitas seorang tenaga medis setiap hari, siswa dapat menentukan arti profesi yang rajin.", level: "C2", bentuk: "PG" },
+          { no: 16, materi: "Kosa Kata Sifat", cp: "Peserta didik mampu menguasai kosa kata sifat keadaan pekerjaan.", tp: "Mengartikan sifat kesibukan seseorang.", indikator: "Disajikan kalimat tentang kondisi profesi seseorang, siswa dapat menentukan arti dari kosa kata sibuk.", level: "C1", bentuk: "PG" },
+          { no: 17, materi: "Profesi & Pekerjaan", cp: "Peserta didik mampu memahami istilah profesi dan pekerjaan (mihnatun).", tp: "Mengartikan kosa kata bidang pekerjaan atau profesi.", indikator: "Disajikan kalimat masa pengabdian dalam suatu pekerjaan, siswa dapat menentukan arti kosa kata profesi.", level: "C1", bentuk: "PG" },
+          { no: 18, materi: "Ragam Profesi", cp: "Peserta didik mampu memahami kosa kata ragam profesi (mutanawwi'ah).", tp: "Menentukan bentuk kosa kata ragam pekerjaan yang bermacam-macam.", indikator: "Disajikan daftar berbagai macam profesi, siswa dapat menentukan kosa kata bahasa Arab yang menyatakan keberagaman.", level: "C2", bentuk: "PG" },
+          { no: 19, materi: "Manfaat Ilmu & Perjalanan", cp: "Peserta didik mampu memahami manfaat mencari ilmu dan perjalanan.", tp: "Mengartikan manfaat suatu hal (mufidun).", indikator: "Disajikan kalimat motivasi menuntut ilmu, siswa dapat menentukan arti dari kosa kata bermanfaat.", level: "C1", bentuk: "PG" },
+          { no: 20, materi: "Kata Tugas & Anjuran", cp: "Peserta didik mampu memahami kata tugas dan anjuran (yanbaghi).", tp: "Mengartikan kata anjuran atau keharusan moral.", indikator: "Disajikan kalimat tentang kewajiban moral berbagai profesi, siswa dapat menentukan arti kata hendaknya.", level: "C2", bentuk: "PG" },
+          { no: 21, materi: "Qawaid (Dhamir & Sifat)", cp: "Peserta didik mampu menerapkan kaidah dhamir dan mutsanna/jamak sederhana.", tp: "Melengkapi kalimat rumpang dengan kata ganti/sifat ganda yang sesuai.", indikator: "Disajikan kalimat rumpang dengan subjek ganda, siswa dapat menuliskan kata sifat ganda yang tepat.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 22, materi: "Keterangan Waktu", cp: "Peserta didik mampu melengkapi kalimat dengan keterangan waktu sekarang.", tp: "Melengkapi kalimat rumpang dengan kata keterangan waktu.", indikator: "Disajikan kalimat aktivitas membaca sedang berlangsung, siswa dapat menuliskan kosa kata penunjuk waktu sekarang.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 23, materi: "Ungkapan Percakapan", cp: "Peserta didik mampu melengkapi ungkapan salam atau perpisahan.", tp: "Menuliskan ungkapan perpisahan.", indikator: "Disajikan ungkapan sapaan di hari esok, siswa dapat menuliskan padanan ungkapan sampai jumpa.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 24, materi: "Qawaid (Fi'il & Fa'il)", cp: "Peserta didik mampu menggunakan fi'il (kata kerja) yang sesuai dengan subjek.", tp: "Melengkapi kalimat rumpang dengan kata kerja bentuk lampau/mudhari'.", indikator: "Disajikan kalimat rumpang tentang posisi ustadz di atas kursi, siswa dapat menuliskan kata kerja duduk yang tepat.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 25, materi: "Dhamir Muttashil", cp: "Peserta didik mampu menggunakan kata ganti kepunyaan (dhamir muttashil).", tp: "Melengkapi kalimat kecintaan terhadap keluarga.", indikator: "Disajikan kalimat ungkapan rasa sayang kepada keluarga, siswa dapat menuliskan bentuk kepunyaan saya yang tepat.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 26, materi: "Pemahaman Teks Bacaan (Qira'ah)", cp: "Peserta didik mampu menganalisis teks bacaan cerita (Qira'ah).", tp: "Menuliskan bahasa Arab dari kata bergaris bawah pertama pada teks narasi cita-cita.", indikator: "Disajikan teks bacaan tentang cita-cita dan profesi keluarga, siswa dapat menuliskan kosa kata target pada garis bawah pertama.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 27, materi: "Pemahaman Teks Bacaan (Qira'ah)", cp: "Peserta didik mampu menganalisis teks bacaan cerita (Qira'ah).", tp: "Menuliskan bahasa Arab dari kata bergaris bawah kedua pada teks narasi.", indikator: "Disajikan teks bacaan tentang aktivitas di desa dan profesi petani, siswa dapat menuliskan kosa kata target pada garis bawah kedua.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 28, materi: "Pemahaman Teks Bacaan (Qira'ah)", cp: "Peserta didik mampu menganalisis teks bacaan cerita (Qira'ah).", tp: "Menuliskan bahasa Arab dari kata bergaris bawah ketiga pada teks narasi.", indikator: "Disajikan teks bacaan tentang impian menjadi dokter dan apoteker, siswa dapat menuliskan kosa kata target pada garis bawah ketiga.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 29, materi: "Pemahaman Teks Bacaan (Qira'ah)", cp: "Peserta didik mampu menganalisis teks bacaan cerita (Qira'ah).", tp: "Menuliskan bahasa Arab dari kata bergaris bawah keempat pada teks narasi.", indikator: "Disajikan teks bacaan tentang pengemudi kereta api (saiqul qithar), siswa dapat menuliskan kosa kata target pada garis bawah keempat.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 30, materi: "Pemahaman Teks Bacaan (Qira'ah)", cp: "Peserta didik mampu menganalisis teks bacaan cerita (Qira'ah).", tp: "Menuliskan bahasa Arab dari kata bergaris bawah kelima pada teks narasi.", indikator: "Disajikan teks bacaan tentang nakhoda kapal (rubbanus safinah), siswa dapat menuliskan kosa kata target pada garis bawah kelima.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 31, materi: "Keterampilan Menulis Alamat", cp: "Peserta didik mampu menyusun kalimat alamat rumah dalam bahasa Arab.", tp: "Menuliskan alamat rumah pribadi menggunakan bahasa Arab.", indikator: "Disajikan perintah penugasan, siswa dapat menuliskan alamat rumahnya sendiri menggunakan bahasa Arab.", level: "C3", bentuk: "Uraian" },
+          { no: 32, materi: "Geografi Nusantara", cp: "Peserta didik mampu menuliskan nama-nama kota besar di Indonesia dalam bahasa Arab.", tp: "Menyebutkan 3 kota di Indonesia menggunakan bahasa Arab.", indikator: "Disajikan perintah tertulis, siswa dapat menyebutkan tiga nama kota di Indonesia ke dalam bahasa Arab.", level: "C2", bentuk: "Uraian" },
+          { no: 33, materi: "Qawaid (Dhamir Kepunyaan)", cp: "Peserta didik mampu mengubah bentuk kata benda dengan dhamir kepunyaan ('saya' dan 'kami').", tp: "Menyambungkan kata benda dengan kata ganti kepunyaan.", indikator: "Disajikan contoh perubahan kata benda, siswa dapat menuliskan bentuk kepunyaan untuk kata benda bagi 'saya' dan 'kami'.", level: "C3", bentuk: "Uraian" },
+          { no: 34, materi: "Terjemahan Alamat & Angka", cp: "Peserta didik mampu menerjemahkan alamat dan nomor rumah ke dalam bahasa Arab.", tp: "Mengubah kalimat yang berkaitan dengan alamat ke dalam bahasa Arab.", indikator: "Disajikan kalimat alamat lengkap beserta nomor jalan dalam bahasa Indonesia, siswa dapat mengubahnya ke dalam bahasa Arab.", level: "C3", bentuk: "Uraian" },
+          { no: 35, materi: "Qawaid (Perubahan Dhamir)", cp: "Peserta didik mampu mengubah kata ganti subjek (dhamir munfashil) pada awal kalimat.", tp: "Mengubah kata ganti subjek (Ana menjadi Anta dan Hiya) sesuai contoh.", indikator: "Disajikan contoh kalimat berawalan Ana beserta soal latihan perubahan ke bentuk Anta dan Hiya, siswa dapat menuliskan perubahannya dengan benar.", level: "C3", bentuk: "Uraian" }
+        ]
+      },
+
+      // -----------------------------------------------------------------------
+      // 9. BAHASA ARAB - KELAS VI (40 SOAL)
+      // -----------------------------------------------------------------------
+      {
+        id: "arab-6",
+        mapel: "Bahasa Arab",
+        kelas: "VI",
+        kelasLabel: "Kelas VI (Enam)",
+        icon: "fa-spell-check",
+        gradient: "from-fuchsia-500 to-rose-600",
+        badgeBg: "bg-fuchsia-100 text-fuchsia-800",
+        total: 40, pg: 25, isian: 10, uraian: 5,
+        items: [
+          { no: 1, materi: "Waktu dan Jam", cp: "Peserta didik mampu memahami ungkapan waktu/jam dalam teks bahasa Arab.", tp: "Menentukan penunjukan waktu atau jam pada teks percakapan/bacaan.", indikator: "Disajikan kalimat rumpang tentang jadwal kegiatan harian, siswa dapat menentukan pilihan penunjukan waktu yang sesuai dengan konteks kalimat.", level: "C2", bentuk: "PG" },
+          { no: 2, materi: "Aktivitas Harian", cp: "Peserta didik mampu memahami kosa kata aktivitas ibadah sehari-hari.", tp: "Mengidentifikasi kosa kata aktivitas bersuci atau beribadah.", indikator: "Disajikan narasi urutan kegiatan sebelum melakukan ibadah, siswa dapat menentukan kosa kata aktivitas yang tepat.", level: "C2", bentuk: "PG" },
+          { no: 3, materi: "Tempat dan Lingkungan", cp: "Peserta didik mampu memahami kosa kata nama tempat di sekolah/rumah.", tp: "Menentukan nama ruangan atau tempat berdasarkan aktivitas.", indikator: "Disajikan kalimat tentang persiapan diri sebelum berangkat ke sekolah, siswa dapat menentukan kosa kata nama tempat yang sesuai.", level: "C2", bentuk: "PG" },
+          { no: 4, materi: "Fasilitas Umum", cp: "Peserta didik mampu memahami kosa kata fasilitas umum dan perbelanjaan.", tp: "Mengartikan kosa kata fasilitas publik atau toko.", indikator: "Disajikan narasi kunjungan ke suatu lokasi di tengah kota untuk mencari buku, siswa dapat menentukan kosa kata fasilitas umum yang tepat.", level: "C2", bentuk: "PG" },
+          { no: 5, materi: "Keutamaan Menuntut Ilmu", cp: "Peserta didik mampu memahami teks tentang keutamaan menuntut ilmu.", tp: "Mengartikan pokok bahasan atau tema terkait pendidikan.", indikator: "Disajikan paragraf motivasi belajar, siswa dapat menentukan tema atau judul bacaan yang sesuai.", level: "C2", bentuk: "PG" },
+          { no: 6, materi: "Kosa Kata Sifat", cp: "Peserta didik mampu memahami kosa kata sifat tingkat kepentingan.", tp: "Mengartikan kosa kata sifat penekanan suatu hal.", indikator: "Disajikan kalimat pernyataan mengenai nilai atau dokumen penting, siswa dapat menentukan arti kosa kata sifat yang sesuai.", level: "C1", bentuk: "PG" },
+          { no: 7, materi: "Aktivitas Ibadah", cp: "Peserta didik mampu memahami kosa kata kegiatan keagamaan (salat).", tp: "Mengidentifikasi kata kerja pelaksanaan ibadah salat.", indikator: "Disajikan kalimat rumpang tentang rangkaian kegiatan setelah bersuci, siswa dapat menentukan kata kerja ibadah yang tepat.", level: "C3", bentuk: "PG" },
+          { no: 8, materi: "Ungkapan & Nilai Akhlak", cp: "Peserta didik mampu memahami ungkapan sifat suatu nilai atau kebenaran.", tp: "Menentukan pelengkap keterangan atau sifat dalam kalimat.", indikator: "Disajikan pernyataan tentang perilaku terpuji dalam ucapan, siswa dapat menentukan kata pelengkap yang sesuai dengan konteks.", level: "C2", bentuk: "PG" },
+          { no: 9, materi: "Pembelajaran di Kelas", cp: "Peserta didik mampu memahami kosa kata proses pembelajaran di kelas.", tp: "Mengartikan kata kerja penyampaian materi oleh pendidik.", indikator: "Disajikan kalimat tentang peran pengajar di dalam kelas, siswa dapat menentukan kata kerja yang menyatakan penjelasan kaidah atau materi.", level: "C2", bentuk: "PG" },
+          { no: 10, materi: "Alat Penunjuk Waktu", cp: "Peserta didik mampu memahami kosa kata alat penunjuk waktu di kelas.", tp: "Mengartikan benda penunjuk waktu di ruangan.", indikator: "Disajikan narasi aktivitas awal di kelas, siswa dapat menentukan kosa kata alat penunjuk waktu yang sesuai.", level: "C2", bentuk: "PG" },
+          { no: 11, materi: "Mata Pelajaran", cp: "Peserta didik mampu memahami materi pelajaran umum dan keagamaan.", tp: "Mengenal istilah nama mata pelajaran.", indikator: "Disajikan kalimat kecintaan terhadap bidang studi tertentu, siswa dapat menentukan nama mata pelajaran yang dimaksud.", level: "C1", bentuk: "PG" },
+          { no: 12, materi: "Ungkapan Percakapan", cp: "Peserta didik mampu memahami ungkapan perpisahan dalam bahasa Arab.", tp: "Mengartikan ungkapan penutup atau salam perpisahan.", indikator: "Disajikan kalimat ucapan antarteman saat mengakhiri pertemuan, siswa dapat menentukan frasa ungkapan perpisahan yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 13, materi: "Pemahaman Teks Bacaan (Qira'ah)", cp: "Peserta didik mampu memahami teks bacaan tentang profil atau hobi siswa.", tp: "Mengidentifikasi informasi tersurat dari teks bacaan naratif.", indikator: "Disajikan teks bacaan komprehensif, siswa dapat menentukan pernyataan pilihan yang sesuai dengan isi teks tersebut.", level: "C3", bentuk: "PG" },
+          { no: 14, materi: "Proses Pembelajaran", cp: "Peserta didik mampu memahami proses pembelajaran bahasa Arab di kelas.", tp: "Mengartikan kata kerja aktivitas belajar bersama.", indikator: "Disajikan kalimat interaksi belajar di kelas, siswa dapat menentukan kata kerja yang menyatakan proses belajar.", level: "C2", bentuk: "PG" },
+          { no: 15, materi: "Ungkapan Kesungguhan", cp: "Peserta didik mampu memahami ungkapan tekad dan kesungguhan belajar.", tp: "Mengartikan ungkapan motivasi dan kerja keras.", indikator: "Disajikan kalimat pernyataan tekad meraih cita-cita, siswa dapat menentukan kosa kata yang menyatakan kesungguhan.", level: "C2", bentuk: "PG" },
+          { no: 16, materi: "Lingkungan Rumah", cp: "Peserta didik mampu memahami kosa kata bagian rumah atau kamar tidur.", tp: "Mengartikan kosa kata ruangan pribadi di rumah.", indikator: "Disajikan deskripsi suatu ruangan pribadi yang rapi dan fasilitasnya, siswa dapat menentukan kosa kata nama ruangan tersebut.", level: "C2", bentuk: "PG" },
+          { no: 17, materi: "Alat Penanda Waktu", cp: "Peserta didik mampu memahami kosa kata alat penanda waktu bangun tidur.", tp: "Mengartikan kosa kata alat pengingat waktu.", indikator: "Disajikan kalimat persiapan sebelum tidur untuk mengatur waktu bangun pagi, siswa dapat menentukan alat pengingat waktu yang sesuai.", level: "C1", bentuk: "PG" },
+          { no: 18, materi: "Kosa Kata Keahlian", cp: "Peserta didik mampu memahami hobi atau keahlian seseorang.", tp: "Mengidentifikasi kosa kata bidang keterampilan.", indikator: "Disajikan kalimat pernyataan tentang kecakapan dalam suatu bidang seni atau keahlian, siswa dapat menentukan kosa kata yang tepat.", level: "C2", bentuk: "PG" },
+          { no: 19, materi: "Pembelajaran Bahasa Arab", cp: "Peserta didik mampu memahami metode pembelajaran bahasa Arab.", tp: "Menentukan kosa kata kaidah atau tata bahasa.", indikator: "Disajikan narasi penjelasan materi di kelas bahasa, siswa dapat menentukan kosa kata yang berkaitan dengan kaidah.", level: "C2", bentuk: "PG" },
+          { no: 20, materi: "Aktivitas Harian", cp: "Peserta didik mampu memahami aktivitas sepulang sekolah.", tp: "Mengartikan kosa kata aktivitas kembali ke rumah.", indikator: "Disajikan narasi kegiatan perjalanan pulang dari sekolah, siswa dapat menentukan kosa kata kepulangan yang sesuai.", level: "C2", bentuk: "PG" },
+          { no: 21, materi: "Waktu dan Jam", cp: "Peserta didik mampu memahami penunjukan waktu pagi hari.", tp: "Menentukan terjemahan waktu pagi dan kegiatan ibadah.", indikator: "Disajikan kalimat jadwal rutinitas pagi hari, siswa dapat menentukan pilihan waktu yang tepat sesuai teks.", level: "C2", bentuk: "PG" },
+          { no: 22, materi: "Keterangan Waktu", cp: "Peserta didik mampu memahami teks narasi jadwal kegiatan harian.", tp: "Mengartikan keterangan waktu malam hari.", indikator: "Disajikan kalimat rutinitas belajar malam hari, siswa dapat menentukan keterangan waktu penanda malam yang sesuai.", level: "C2", bentuk: "PG" },
+          { no: 23, materi: "Aktivitas di Sekolah", cp: "Peserta didik mampu memahami aktivitas jeda/istirahat di sekolah.", tp: "Menentukan penunjukan waktu istirahat siswa.", indikator: "Disajikan kalimat jadwal jeda kegiatan belajar di sekolah, siswa dapat menentukan keterangan waktu istirahat yang tepat.", level: "C2", bentuk: "PG" },
+          { no: 24, materi: "Kosa Kata Akademik", cp: "Peserta didik mampu memahami kosa kata kendala atau masalah akademik.", tp: "Mengartikan kosa kata hambatan atau masalah.", indikator: "Disajikan kalimat tentang upaya menyelesaikan kesulitan belajar bersama pengajar, siswa dapat menentukan kosa kata masalah yang sesuai.", level: "C2", bentuk: "PG" },
+          { no: 25, materi: "Sumber Belajar", cp: "Peserta didik mampu memahami pemanfaatan media referensi dalam belajar.", tp: "Mengartikan kosa kata kamus atau buku rujukan.", indikator: "Disajikan kalimat pencarian arti kata menggunakan sarana referensi bahasa, siswa dapat menentukan padanan kosa kata rujukan yang tepat.", level: "C1", bentuk: "PG" },
+          { no: 26, materi: "Qawaid (Fi'il Madhi & Mudhari')", cp: "Peserta didik mampu mengubah kata kerja (fi'il mudhari') ke bentuk fi'il madhi.", tp: "Menyesuaikan bentuk kata kerja lampau berdasarkan subjek tertentu.", indikator: "Disajikan kalimat rumpang dengan subjek kata ganti tertentu, siswa dapat mengubah kata kerja ke bentuk fi'il madhi yang sesuai.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 27, materi: "Qawaid (Fi'il Madhi)", cp: "Peserta didik mampu mengubah kata kerja bentuk lampau untuk subjek tertentu.", tp: "Menerapkan kaidah perubahan fi'il madhi pada kata ganti orang kedua.", indikator: "Disajikan kalimat aktivitas harian dengan subjek tertentu, siswa dapat menuliskan bentuk fi'il madhi yang tepat.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 28, materi: "Qawaid (Fi'il Madhi)", cp: "Peserta didik mampu mengubah kata kerja bentuk lampau untuk subjek orang pertama.", tp: "Menerapkan kaidah perubahan fi'il madhi untuk kata ganti 'saya'.", indikator: "Disajikan kalimat aktivitas bersama di kelas, siswa dapat menuliskan bentuk fi'il madhi untuk subjek yang sesuai.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 29, materi: "Qawaid (Fi'il Madhi)", cp: "Peserta didik mampu mengubah kata kerja bentuk lampau untuk subjek jamak (kami).", tp: "Menerapkan kaidah perubahan fi'il madhi untuk kata ganti 'kami'.", indikator: "Disajikan kalimat aktivitas kelompok, siswa dapat menuliskan bentuk fi'il madhi untuk subjek jamak yang tepat.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 30, materi: "Qawaid (Fi'il Madhi)", cp: "Peserta didik mampu mengubah kata kerja bentuk lampau untuk subjek perempuan.", tp: "Menerapkan kaidah perubahan fi'il madhi untuk subjek orang kedua perempuan.", indikator: "Disajikan kalimat aktivitas luar kelas dengan subjek tertentu, siswa dapat menuliskan bentuk fi'il madhi yang sesuai.", level: "C3", bentuk: "Isian Singkat" },
+          { no: 31, materi: "Keterangan Waktu", cp: "Peserta didik mampu melengkapi kalimat penunjuk waktu pagi hari.", tp: "Menuliskan kosa kata keterangan waktu pagi.", indikator: "Disajikan kalimat rumpang jadwal memulai aktivitas harian, siswa dapat melengkapinya dengan kosa kata waktu pagi yang tepat.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 32, materi: "Kata Tanya (Istifham)", cp: "Peserta didik mampu menggunakan kata tanya penunjuk waktu.", tp: "Menuliskan kata tanya penanya waktu dalam kalimat.", indikator: "Disajikan kalimat tanya rumpang tentang jadwal kegiatan harian, siswa dapat menuliskan kata tanya waktu yang sesuai.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 33, materi: "Ungkapan Komunikasi Kelas", cp: "Peserta didik mampu menuliskan ungkapan kendala pemahaman materi.", tp: "Menuliskan frasa ungkapan belum paham atau kendala mengerti.", indikator: "Disajikan kalimat alasan siswa bertanya kepada pengajar, siswa dapat menuliskan ungkapan kendala pemahaman yang tepat.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 34, materi: "Keterangan Waktu", cp: "Peserta didik mampu melengkapi keterangan waktu siang hari.", tp: "Menuliskan penanda waktu siang pada kalimat kepulangan.", indikator: "Disajikan kalimat jadwal kepulangan dari institusi pendidikan, siswa dapat menuliskan kosa kata penanda waktu siang yang tepat.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 35, materi: "Terjemahan Kosa Kata", cp: "Peserta didik mampu menerjemahkan kosa kata ungkapan kendala pemahaman makna.", tp: "Menerjemahkan frasa terkait ketidakpahaman arti suatu istilah.", indikator: "Disajikan kalimat tentang peserta didik yang belum memahami suatu arti kata, siswa dapat menuliskan terjemahan frasa tersebut.", level: "C2", bentuk: "Isian Singkat" },
+          { no: 36, materi: "Keterampilan Menulis & Harakat", cp: "Peserta didik mampu menyalin teks pernyataan bernilai motivasi dengan harakat benar.", tp: "Menuliskan kembali kalimat anjuran atau pernyataan bermakna.", indikator: "Disajikan kalimat penting mengenai keutamaan bahasa, siswa dapat menuliskan kembali teks tersebut dengan kelengkapan harakat yang benar.", level: "C3", bentuk: "Uraian" },
+          { no: 37, materi: "Qawaid (Fi'il Mudhari')", cp: "Peserta didik mampu menyebutkan contoh kata kerja bentuk sedang/akan terjadi.", tp: "Menyebutkan contoh ragam fi'il mudhari'.", indikator: "Disajikan perintah penugasan tata bahasa, siswa dapat menyebutkan contoh kata kerja bentuk fi'il mudhari' dengan benar.", level: "C2", bentuk: "Uraian" },
+          { no: 38, materi: "Waktu dan Angka", cp: "Peserta didik mampu mengubah penulisan waktu malam ke dalam bahasa Arab.", tp: "Menerjemahkan frasa penunjuk waktu malam hari ke dalam bahasa Arab.", indikator: "Disajikan permintaan konversi waktu malam tertentu ke dalam bahasa Arab, siswa dapat menuliskan bentuk penulisan jam yang tepat.", level: "C3", bentuk: "Uraian" },
+          { no: 39, materi: "Waktu dan Angka", cp: "Peserta didik mampu mengubah penulisan waktu pagi ke dalam bahasa Arab.", tp: "Menerjemahkan frasa penunjuk waktu pagi beserta menitnya ke dalam bahasa Arab.", indikator: "Disajikan permintaan konversi waktu pagi hari tertentu ke dalam bahasa Arab, siswa dapat menuliskan bentuk penulisan jam dan menit secara tepat.", level: "C3", bentuk: "Uraian" },
+          { no: 40, materi: "Terjemahan Waktu (Jam)", cp: "Peserta didik mampu menerjemahkan kalimat penunjukan jam konsep pengecualian.", tp: "Menerjemahkan kalimat bahasa Arab penunjukan waktu dengan konsep kurang.", indikator: "Disajikan kalimat penunjukan waktu menggunakan konsep pengurangan (illa), siswa dapat menerjemahkannya ke dalam bahasa Indonesia dengan benar.", level: "C3", bentuk: "Uraian" }
+        ]
+      }
+    ];
+
+    // =========================================================================
+    // STATE APLIKASI
+    // =========================================================================
+    const STORAGE_KEY = "mi_al_iman_sas_2026_progress_v1";
+    let state = {
+      selectedGrade: "ALL",
+      activeSubjectId: KISI_DATA[0].id,
+      selectedTopic: "ALL",
+      searchQuery: "",
+      filterType: "ALL",
+      filterLevel: "ALL",
+      viewMode: "card", // 'card' atau 'table'
+      completedMap: {}  // { "akidah-3:1": true, ... }
+    };
+
+    // Muat progres dari LocalStorage
+    function loadProgress() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          state.completedMap = JSON.parse(saved);
+        }
+      } catch (e) {
+        console.warn("Gagal membaca localStorage:", e);
+      }
+    }
+
+    // Simpan progres ke LocalStorage
+    function saveProgress() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state.completedMap));
+      } catch (e) {
+        console.warn("Gagal menyimpan localStorage:", e);
+      }
+    }
+
+    // Toast Helper
+    let toastTimeout;
+    function showToast(title, msg, isSuccess = true) {
+      const toast = document.getElementById("toast");
+      const iconBox = document.getElementById("toast-icon");
+      document.getElementById("toast-title").textContent = title;
+      document.getElementById("toast-msg").textContent = msg;
+
+      if (isSuccess) {
+        iconBox.className = "w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center";
+        iconBox.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+      } else {
+        iconBox.className = "w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center";
+        iconBox.innerHTML = '<i class="fa-solid fa-rotate-left"></i>';
+      }
+
+      toast.classList.remove("translate-y-24", "opacity-0");
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add("translate-y-24", "opacity-0");
+      }, 2400);
+    }
+
+    // Toggle Checklist Butir Soal
+    function toggleItemComplete(subjectId, itemNo) {
+      const key = `${subjectId}:${itemNo}`;
+      if (state.completedMap[key]) {
+        delete state.completedMap[key];
+        showToast("Status Diperbarui", `Soal No. ${itemNo} ditandai belum selesai.`, false);
+      } else {
+        state.completedMap[key] = true;
+        showToast("Hebat! Terus Semangat!", `Soal No. ${itemNo} sudah dipelajari.`);
+      }
+      saveProgress();
+      updateAllProgressUI();
+      renderItems();
+    }
+
+    // Hitung Progres Global & Mapel Aktif
+    function updateAllProgressUI() {
+      let totalAll = 0;
+      let completedAll = 0;
+
+      KISI_DATA.forEach(subj => {
+        totalAll += subj.items.length;
+        subj.items.forEach(it => {
+          if (state.completedMap[`${subj.id}:${it.no}`]) {
+            completedAll++;
+          }
+        });
+      });
+
+      document.getElementById("global-progress-text").textContent = `${completedAll} / ${totalAll}`;
+
+      const activeSubj = KISI_DATA.find(s => s.id === state.activeSubjectId);
+      if (activeSubj) {
+        const subjDone = activeSubj.items.filter(it => state.completedMap[`${activeSubj.id}:${it.no}`]).length;
+        const pct = Math.round((subjDone / activeSubj.items.length) * 100);
+        document.getElementById("subject-progress-label").textContent = `${subjDone} dari ${activeSubj.items.length} indikator dipelajari (${pct}%)`;
+        document.getElementById("subject-progress-bar").style.width = `${pct}%`;
+      }
+
+      renderSubjectTabs();
+    }
+
+    // Render Tab Pilihan Mata Pelajaran
+    function renderSubjectTabs() {
+      const container = document.getElementById("subject-tabs");
+      const filteredSubjects = state.selectedGrade === "ALL"
+        ? KISI_DATA
+        : KISI_DATA.filter(s => s.kelas === state.selectedGrade);
+
+      document.getElementById("visible-subject-count").textContent = `Menampilkan ${filteredSubjects.length} paket mapel`;
+
+      // Jika activeSubjectId tidak ada di hasil filter kelas, pindahkan otomatis ke item pertama
+      if (!filteredSubjects.some(s => s.id === state.activeSubjectId) && filteredSubjects.length > 0) {
+        state.activeSubjectId = filteredSubjects[0].id;
+        state.selectedTopic = "ALL";
+      }
+
+      container.innerHTML = filteredSubjects.map(subj => {
+        const isActive = subj.id === state.activeSubjectId;
+        const doneCount = subj.items.filter(it => state.completedMap[`${subj.id}:${it.no}`]).length;
+        const pct = Math.round((doneCount / subj.items.length) * 100);
+
+        return `
+          <button
+            onclick="selectSubject('${subj.id}')"
+            class="group text-left p-3.5 rounded-2xl border-2 transition-all flex items-center justify-between gap-3 ${
+              isActive
+                ? 'border-teal-500 bg-teal-50/70 shadow-sm'
+                : 'border-slate-100 bg-slate-50/60 hover:bg-white hover:border-slate-300'
+            }"
+          >
+            <div class="flex items-center gap-3 min-w-0">
+              <div class="w-11 h-11 rounded-xl bg-gradient-to-br ${subj.gradient} text-white flex items-center justify-center text-lg shrink-0 shadow-sm group-hover:scale-105 transition-transform">
+                <i class="fa-solid ${subj.icon}"></i>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="text-[11px] font-extrabold uppercase px-2 py-0.5 rounded-md ${subj.badgeBg}">
+                    Kelas ${subj.kelas}
+                  </span>
+                  <span class="text-[11px] font-semibold text-slate-400">• ${subj.total} Soal</span>
+                </div>
+                <h3 class="text-sm font-bold text-slate-800 truncate mt-1">${subj.mapel}</h3>
+                <div class="flex items-center gap-2 mt-1">
+                  <div class="w-16 h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                    <div class="h-full bg-emerald-500 rounded-full" style="width: ${pct}%"></div>
+                  </div>
+                  <span class="text-[10px] font-bold text-slate-500">${doneCount}/${subj.total}</span>
+                </div>
+              </div>
+            </div>
+            <div class="shrink-0">
+              <i class="fa-solid fa-chevron-right text-xs ${isActive ? 'text-teal-600 translate-x-0.5' : 'text-slate-300'} transition-transform"></i>
+            </div>
+          </button>
+        `;
+      }).join("");
+    }
+
+    // Pilih Mata Pelajaran
+    function selectSubject(subjectId) {
+      state.activeSubjectId = subjectId;
+      state.selectedTopic = "ALL";
+      renderActiveSubjectHeader();
+      updateAllProgressUI();
+      renderItems();
+    }
+
+    // Render Banner Header & Peta Topik Materi Mapel Aktif
+    function renderActiveSubjectHeader() {
+      const subj = KISI_DATA.find(s => s.id === state.activeSubjectId);
+      if (!subj) return;
+
+      const bannerHeader = document.getElementById("banner-header");
+      bannerHeader.className = `bg-gradient-to-r ${subj.gradient} p-5 sm:p-7 text-white transition-all`;
+
+      document.getElementById("banner-grade-badge").textContent = `KELAS ${subj.kelas} (${subj.kelasLabel.toUpperCase()})`;
+      document.getElementById("banner-title").textContent = subj.mapel;
+      document.getElementById("stat-total").textContent = subj.total;
+      document.getElementById("stat-pg").textContent = subj.pg;
+      document.getElementById("stat-isian").textContent = subj.isian;
+      document.getElementById("stat-uraian").textContent = subj.uraian;
+
+      // Hitung topik unik dan jumlah soalnya
+      const topicCounts = {};
+      subj.items.forEach(it => {
+        topicCounts[it.materi] = (topicCounts[it.materi] || 0) + 1;
+      });
+
+      const pillsContainer = document.getElementById("topic-pills-container");
+      const resetTopicBtn = document.getElementById("reset-topic-btn");
+      if (state.selectedTopic !== "ALL") {
+        resetTopicBtn.classList.remove("hidden");
+      } else {
+        resetTopicBtn.classList.add("hidden");
+      }
+
+      const allPill = `
+        <button
+          onclick="selectTopic('ALL')"
+          class="px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
+            state.selectedTopic === 'ALL'
+              ? 'bg-slate-800 text-white border-slate-800 shadow-sm'
+              : 'bg-white text-slate-600 border-slate-200 hover:border-slate-400'
+          }"
+        >
+          Semua Materi (${subj.items.length})
+        </button>
+      `;
+
+      const topicPills = Object.entries(topicCounts).map(([materi, count]) => {
+        const isSelected = state.selectedTopic === materi;
+        // Escape single quote untuk onclick
+        const safeMateri = materi.replace(/'/g, "\\'");
+        return `
+          <button
+            onclick="selectTopic('${safeMateri}')"
+            class="px-3 py-1.5 rounded-xl text-xs font-semibold transition-all border ${
+              isSelected
+                ? 'bg-teal-600 text-white border-teal-600 shadow-sm'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-teal-50 hover:border-teal-300'
+            }"
+          >
+            ${materi} <span class="opacity-75 font-bold">(${count})</span>
+          </button>
+        `;
+      }).join("");
+
+      pillsContainer.innerHTML = allPill + topicPills;
+    }
+
+    function selectTopic(topic) {
+      state.selectedTopic = topic;
+      renderActiveSubjectHeader();
+      renderItems();
+    }
+
+    // Helper Badge Warna Bentuk Soal & Level Kognitif
+    function getBentukBadge(bentuk) {
+      if (bentuk === "PG") {
+        return `<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-sky-100 text-sky-800"><i class="fa-solid fa-list-ul text-[10px]"></i> Pilihan Ganda</span>`;
+      } else if (bentuk === "Isian Singkat") {
+        return `<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-100 text-amber-800"><i class="fa-solid fa-pen text-[10px]"></i> Isian Singkat</span>`;
+      } else {
+        return `<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-rose-100 text-rose-800"><i class="fa-solid fa-align-left text-[10px]"></i> Uraian</span>`;
+      }
+    }
+
+    function getLevelBadge(level) {
+      const desc = {
+        C1: "C1 • Mengingat",
+        C2: "C2 • Memahami",
+        C3: "C3 • Menerapkan"
+      };
+      const colors = {
+        C1: "bg-emerald-100 text-emerald-800",
+        C2: "bg-indigo-100 text-indigo-800",
+        C3: "bg-purple-100 text-purple-800"
+      };
+      return `<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold ${colors[level] || 'bg-slate-100 text-slate-700'}"><i class="fa-solid fa-brain text-[10px]"></i> ${desc[level] || level}</span>`;
+    }
+
+    // Render Daftar Indikator Soal (Card View atau Table View)
+    function renderItems() {
+      const subj = KISI_DATA.find(s => s.id === state.activeSubjectId);
+      if (!subj) return;
+
+      const query = state.searchQuery.toLowerCase().trim();
+      const filteredItems = subj.items.filter(item => {
+        const matchTopic = state.selectedTopic === "ALL" || item.materi === state.selectedTopic;
+        const matchType = state.filterType === "ALL" || item.bentuk === state.filterType;
+        const matchLevel = state.filterLevel === "ALL" || item.level === state.filterLevel;
+        const matchSearch = !query ||
+          String(item.no) === query ||
+          `no ${item.no}`.includes(query) ||
+          item.materi.toLowerCase().includes(query) ||
+          item.cp.toLowerCase().includes(query) ||
+          item.tp.toLowerCase().includes(query) ||
+          item.indikator.toLowerCase().includes(query);
+
+        return matchTopic && matchType && matchLevel && matchSearch;
+      });
+
+      document.getElementById("filter-status-text").innerHTML = `
+        Menampilkan <span class="font-bold text-slate-900">${filteredItems.length}</span> dari ${subj.items.length} butir indikator soal (${subj.mapel} - Kelas ${subj.kelas}).
+      `;
+
+      const container = document.getElementById("items-container");
+
+      if (filteredItems.length === 0) {
+        container.innerHTML = `
+          <div class="bg-white rounded-3xl border border-slate-200 p-10 text-center space-y-3">
+            <div class="w-16 h-16 rounded-2xl bg-amber-100 text-amber-500 flex items-center justify-center text-2xl mx-auto">
+              <i class="fa-solid fa-face-thinking"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-800">Indikator Soal Tidak Ditemukan</h3>
+            <p class="text-sm text-slate-500 max-w-md mx-auto">
+              Coba ubah kata kunci pencarian atau atur ulang filter topik, bentuk soal, dan level kognitif.
+            </p>
+            <button onclick="resetAllFilters()" class="px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold rounded-xl transition-all">
+              Atur Ulang Semua Filter
+            </button>
+          </div>
+        `;
+        return;
+      }
+
+      if (state.viewMode === "card") {
+        // MODE KARTU BELAJAR (RAMAH SISWA & ORANG TUA)
+        container.innerHTML = `
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            ${filteredItems.map(item => {
+              const isDone = !!state.completedMap[`${subj.id}:${item.no}`];
+              return `
+                <article class="print-break-inside group relative bg-white rounded-3xl border-2 transition-all p-5 flex flex-col justify-between gap-4 ${
+                  isDone
+                    ? 'border-emerald-400 bg-emerald-50/20 shadow-sm'
+                    : 'border-slate-200/80 hover:border-teal-300 hover:shadow-md'
+                }">
+                  <div class="space-y-3.5">
+                    <!-- Top Row: Nomor Soal, Materi & Badges -->
+                    <div class="flex items-start justify-between gap-3">
+                      <div class="flex items-center gap-3">
+                        <div class="w-11 h-11 rounded-2xl flex flex-col items-center justify-center font-display font-bold shrink-0 shadow-sm ${
+                          isDone
+                            ? 'bg-emerald-500 text-white'
+                            : 'bg-gradient-to-br from-slate-800 to-slate-700 text-white'
+                        }">
+                          <span class="text-[9px] uppercase tracking-wider opacity-80 leading-none">Soal</span>
+                          <span class="text-lg leading-tight">${item.no}</span>
+                        </div>
+                        <div>
+                          <span class="text-[11px] font-bold uppercase tracking-wider text-teal-700 bg-teal-50 px-2.5 py-0.5 rounded-md border border-teal-100 inline-block">
+                            ${item.materi}
+                          </span>
+                          <div class="flex flex-wrap items-center gap-1.5 mt-1.5">
+                            ${getBentukBadge(item.bentuk)}
+                            ${getLevelBadge(item.level)}
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Tombol Checklist Belajar -->
+                      <button
+                        onclick="toggleItemComplete('${subj.id}', ${item.no})"
+                        class="no-print shrink-0 px-3 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all border ${
+                          isDone
+                            ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm'
+                            : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-300'
+                        }"
+                        title="Tandai sudah dipelajari"
+                      >
+                        <i class="fa-solid ${isDone ? 'fa-circle-check' : 'fa-regular fa-circle'}"></i>
+                        <span>${isDone ? 'Selesai' : 'Tandai'}</span>
+                      </button>
+                    </div>
+
+                    <!-- Box Indikator Soal (Fokus Utama Ujian) -->
+                    <div class="bg-amber-50/70 border border-amber-200/80 rounded-2xl p-3.5">
+                      <div class="text-[11px] font-extrabold uppercase tracking-wider text-amber-800 flex items-center gap-1.5 mb-1">
+                        <i class="fa-solid fa-bullseye text-amber-600"></i> Indikator Soal (Kisi-Kisi Ujian):
+                      </div>
+                      <p class="text-sm font-semibold text-slate-800 leading-relaxed">
+                        ${item.indikator}
+                      </p>
+                    </div>
+
+                    <!-- Detail Tujuan & Capaian Pembelajaran -->
+                    <div class="space-y-2 text-xs text-slate-600 bg-slate-50 rounded-2xl p-3.5 border border-slate-100">
+                      <div>
+                        <span class="font-bold text-slate-700"><i class="fa-solid fa-flag-checkered text-sky-600 mr-1"></i> Tujuan Pembelajaran:</span>
+                        <span>${item.tp}</span>
+                      </div>
+                      <div class="pt-1.5 border-t border-slate-200/60">
+                        <span class="font-bold text-slate-700"><i class="fa-solid fa-compass text-teal-600 mr-1"></i> Capaian Pembelajaran:</span>
+                        <span>${item.cp}</span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              `;
+            }).join("")}
+          </div>
+        `;
+      } else {
+        // MODE TABEL RINCI (STANDAR GURU)
+        container.innerHTML = `
+          <div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+            <div class="overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="bg-slate-800 text-white text-xs uppercase tracking-wider">
+                    <th class="py-3.5 px-3 text-center w-14">No Soal</th>
+                    <th class="py-3.5 px-4 w-44">Materi</th>
+                    <th class="py-3.5 px-4">Capaian Pembelajaran</th>
+                    <th class="py-3.5 px-4">Tujuan Pembelajaran</th>
+                    <th class="py-3.5 px-4">Indikator Soal</th>
+                    <th class="py-3.5 px-3 text-center w-24">Level</th>
+                    <th class="py-3.5 px-3 text-center w-32">Bentuk</th>
+                    <th class="py-3.5 px-3 text-center w-24 no-print">Status</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-200 text-xs sm:text-sm">
+                  ${filteredItems.map(item => {
+                    const isDone = !!state.completedMap[`${subj.id}:${item.no}`];
+                    return `
+                      <tr class="${isDone ? 'bg-emerald-50/40' : 'hover:bg-slate-50/80'} transition-colors">
+                        <td class="py-3.5 px-3 text-center font-display font-bold text-slate-900 align-top">
+                          <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg ${isDone ? 'bg-emerald-500 text-white' : 'bg-slate-100 text-slate-800'}">
+                            ${item.no}
+                          </span>
+                        </td>
+                        <td class="py-3.5 px-4 font-bold text-teal-800 align-top">${item.materi}</td>
+                        <td class="py-3.5 px-4 text-slate-600 align-top leading-relaxed">${item.cp}</td>
+                        <td class="py-3.5 px-4 text-slate-700 font-medium align-top leading-relaxed">${item.tp}</td>
+                        <td class="py-3.5 px-4 text-slate-900 font-semibold align-top leading-relaxed bg-amber-50/30">${item.indikator}</td>
+                        <td class="py-3.5 px-3 text-center align-top">${getLevelBadge(item.level)}</td>
+                        <td class="py-3.5 px-3 text-center align-top">${getBentukBadge(item.bentuk)}</td>
+                        <td class="py-3.5 px-3 text-center align-top no-print">
+                          <button
+                            onclick="toggleItemComplete('${subj.id}', ${item.no})"
+                            class="px-2.5 py-1.5 rounded-lg text-xs font-bold border transition-all ${
+                              isDone
+                                ? 'bg-emerald-500 text-white border-emerald-500'
+                                : 'bg-white text-slate-600 border-slate-300 hover:border-emerald-500 hover:text-emerald-700'
+                            }"
+                          >
+                            ${isDone ? '<i class="fa-solid fa-check"></i> Selesai' : 'Tandai'}
+                          </button>
+                        </td>
+                      </tr>
+                    `;
+                  }).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    function resetAllFilters() {
+      state.selectedTopic = "ALL";
+      state.searchQuery = "";
+      state.filterType = "ALL";
+      state.filterLevel = "ALL";
+
+      document.getElementById("search-input").value = "";
+      document.getElementById("clear-search-btn").classList.add("hidden");
+      document.getElementById("filter-type").value = "ALL";
+      document.getElementById("filter-level").value = "ALL";
+
+      renderActiveSubjectHeader();
+      renderItems();
+    }
+
+    // =========================================================================
+    // EVENT LISTENERS
+    // =========================================================================
+    document.addEventListener("DOMContentLoaded", () => {
+      loadProgress();
+
+      // Filter Kelas
+      document.querySelectorAll(".grade-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".grade-btn").forEach(b => {
+            b.className = "grade-btn px-4 py-2 rounded-xl text-sm font-bold transition-all bg-slate-100 text-slate-600 hover:bg-emerald-50 hover:text-emerald-700";
+          });
+          btn.className = "grade-btn active px-4 py-2 rounded-xl text-sm font-bold transition-all bg-emerald-600 text-white shadow-sm shadow-emerald-200";
+
+          state.selectedGrade = btn.dataset.grade;
+          renderSubjectTabs();
+          renderActiveSubjectHeader();
+          updateAllProgressUI();
+          renderItems();
+        });
+      });
+
+      // Reset Topic Button
+      document.getElementById("reset-topic-btn").addEventListener("click", () => {
+        selectTopic("ALL");
+      });
+
+      // Search Input
+      const searchInput = document.getElementById("search-input");
+      const clearSearchBtn = document.getElementById("clear-search-btn");
+      searchInput.addEventListener("input", (e) => {
+        state.searchQuery = e.target.value;
+        if (state.searchQuery.length > 0) {
+          clearSearchBtn.classList.remove("hidden");
+        } else {
+          clearSearchBtn.classList.add("hidden");
+        }
+        renderItems();
+      });
+
+      clearSearchBtn.addEventListener("click", () => {
+        searchInput.value = "";
+        state.searchQuery = "";
+        clearSearchBtn.classList.add("hidden");
+        renderItems();
+      });
+
+      // Filter Bentuk Soal
+      document.getElementById("filter-type").addEventListener("change", (e) => {
+        state.filterType = e.target.value;
+        renderItems();
+      });
+
+      // Filter Level Kognitif
+      document.getElementById("filter-level").addEventListener("change", (e) => {
+        state.filterLevel = e.target.value;
+        renderItems();
+      });
+
+      // View Toggle: Card vs Table
+      const viewCardBtn = document.getElementById("view-card-btn");
+      const viewTableBtn = document.getElementById("view-table-btn");
+
+      viewCardBtn.addEventListener("click", () => {
+        state.viewMode = "card";
+        viewCardBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 bg-white text-teal-700 shadow-sm transition-all";
+        viewTableBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 text-slate-600 hover:text-slate-900 transition-all";
+        renderItems();
+      });
+
+      viewTableBtn.addEventListener("click", () => {
+        state.viewMode = "table";
+        viewTableBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 bg-white text-teal-700 shadow-sm transition-all";
+        viewCardBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 text-slate-600 hover:text-slate-900 transition-all";
+        renderItems();
+      });
+
+      // Tandai Semua Selesai & Reset Progres Mapel
+      document.getElementById("check-all-btn").addEventListener("click", () => {
+        const subj = KISI_DATA.find(s => s.id === state.activeSubjectId);
+        if (!subj) return;
+        subj.items.forEach(it => {
+          state.completedMap[`${subj.id}:${it.no}`] = true;
+        });
+        saveProgress();
+        updateAllProgressUI();
+        renderItems();
+        showToast("Luar Biasa!", `Semua ${subj.items.length} soal ${subj.mapel} ditandai selesai!`);
+      });
+
+      document.getElementById("uncheck-all-btn").addEventListener("click", () => {
+        const subj = KISI_DATA.find(s => s.id === state.activeSubjectId);
+        if (!subj) return;
+        subj.items.forEach(it => {
+          delete state.completedMap[`${subj.id}:${it.no}`];
+        });
+        saveProgress();
+        updateAllProgressUI();
+        renderItems();
+        showToast("Progres Direset", `Checklist untuk ${subj.mapel} telah dikosongkan.`, false);
+      });
+
+      // Inisialisasi Tampilan Awal
+      renderSubjectTabs();
+      renderActiveSubjectHeader();
+      updateAllProgressUI();
+      renderItems();
+    });
+  </script>
+</body>
+</html>
